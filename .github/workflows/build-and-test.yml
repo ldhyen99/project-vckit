@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: '21'
 
-      - name: Build clean and install dependencies
+      - name: Install dependencies
         run: |
           pnpm install
 
