@@ -15,6 +15,9 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
 
+      - name: Enable Corepack
+        run: corepack enable pnpm
+
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
