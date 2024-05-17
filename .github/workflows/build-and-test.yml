@@ -15,8 +15,8 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Enable Corepack
-        run: corepack enable pnpm
+      - name: Install pnpm
+        run: npm i pnpm --global
 
       - name: Install Node.js
         uses: actions/setup-node@v3
@@ -25,19 +25,19 @@ jobs:
 
       - name: Build clean and install dependencies
         run: |
-            pnpm build-clean && pnpm install --immutable
-      
+          pnpm build-clean && pnpm install --immutable
+
       - name: Build
         run: pnpm build
 
       - name: Run tests
         run: |
-            pnpm test:packages --changedSince=origin/next --ci --json --coverage --testLocationInResults --outputFile=report.json
+          pnpm test:packages --changedSince=origin/next --ci --json --coverage --testLocationInResults --outputFile=report.json
 
       - name: Coverage
         uses: artiomtr/jest-coverage-report-action@v2
         with:
-            github-token: ${{ secrets.GITHUB_TOKEN }}
-            coverage-file: report.json
-            base-coverage-file: report.json
-            threshold: 80
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          coverage-file: report.json
+          base-coverage-file: report.json
+          threshold: 80
