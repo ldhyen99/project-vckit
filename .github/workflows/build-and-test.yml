@@ -14,14 +14,19 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8.12.0
+      # - name: Install pnpm
+      #   run: npm i pnpm --global
 
-      - name: Install pnpm
-        run: npm i pnpm --global
-
-      - name: Install Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '21'
+          cache: 'pnpm'
+          cache-dependency-path: subdir/package-lock.json
+          cache-path: subdir/node_modules
 
       - name: Install dependencies
         run: |
