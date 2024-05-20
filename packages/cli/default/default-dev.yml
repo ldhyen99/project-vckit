@@ -408,7 +408,7 @@ dbConnectionBitstringStatusList:
         $require: '@vckit/bitstringStatusList?t=object#Entities'
 
 bitstringStatusList:
-  $require: '@vckit/bitstringStatusList#BitstringStatusListEntry'
+  $require: '@vckit/bitstringStatusList#BitstringStatusList'
   $args:
     - bitstringStatusListPath: http://localhost:3332
       bitstringLength: 8

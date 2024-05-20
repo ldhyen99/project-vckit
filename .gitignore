@@ -94,3 +94,4 @@ local-database*.json
 # logs
 /logs
 .tmp_npm
+report.json
