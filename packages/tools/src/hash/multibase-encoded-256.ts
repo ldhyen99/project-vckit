@@ -14,13 +14,13 @@ export class MultibaseEncodedSHA256 implements IAgentPlugin {
   }
 
   async computeHash(args: IToolsComputeHashArgs): Promise<string> {
-    if (
-      typeof args !== 'object' ||
-      !args?.content ||
-      typeof args?.content !== 'string'
-    ) {
-      throw new Error('Value is invalid');
-    }
+    // if (
+    //   typeof args !== 'object' ||
+    //   !args?.content ||
+    //   typeof args?.content !== 'string'
+    // ) {
+    //   throw new Error('Value is invalid');
+    // }
     
 
     const bytes = new TextEncoder().encode(args.content);
