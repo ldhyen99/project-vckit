@@ -8,9 +8,10 @@ on:
 jobs:
   test_and_build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [21]
+    env:
+      EXCLUDED_PACKAGE_OA_RENDERERS: '!./packages/vckit-oa-renderers/'
+      EXCLUDED_PACKAGE_CREDENTIAL_OA: '!./packages/credential-oa/'
+      EXCLUDED_PACKAGE_EXPLORER: '!./packages/demo-explorer/'    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -18,21 +19,19 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - uses: pnpm/action-setup@v3
-        with:
-          version: 8.12.0
+      - name: Install pnpm
+        run: npm i pnpm --global
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
+          node-version: '21'
 
       - name: Install dependencies
-        run: pnpm i --filter '!./packages/vckit-oa-renderers/' --filter '!./packages/credential-oa/' --filter '!./packages/demo-explorer/'
+        run: pnpm i --filter ${{ env.EXCLUDED_PACKAGE_OA_RENDERERS }} --filter ${{ env.EXCLUDED_PACKAGE_CREDENTIAL_OA }} --filter ${{ env.EXCLUDED_PACKAGE_EXPLORER }} --ignore-scripts
 
       - name: Build
-        run: pnpm build:js
+        run: pnpm -r --stream --filter ${{ env.EXCLUDED_PACKAGE_OA_RENDERERS }} --filter ${{ env.EXCLUDED_PACKAGE_CREDENTIAL_OA }} --filter ${{ env.EXCLUDED_PACKAGE_EXPLORER }} build
 
       - name: Run tests
         run: |
