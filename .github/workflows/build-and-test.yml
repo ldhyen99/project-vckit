@@ -8,36 +8,28 @@ on:
 jobs:
   test_and_build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [21]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
-      - uses: pnpm/action-setup@v2
+
+      - uses: pnpm/action-setup@v3
         with:
           version: 8.12.0
 
-      - name: Setup Node.js
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: '21'
-
-      - name: Cache pnpm modules
-        uses: actions/cache@v2
-        id: cache-pnpm
-        with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
-        if: steps.cache-pnpm.outputs.cache-hit != 'true'
-
-      - name: Build
-        run: pnpm build
+        run: pnpm install --ignore-scripts
 
       - name: Run tests
         run: |
@@ -50,3 +42,6 @@ jobs:
           coverage-file: report.json
           base-coverage-file: report.json
           threshold: 80
+
+      - name: Build
+        run: pnpm build:agent
