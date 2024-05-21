@@ -29,7 +29,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm i --filter '!./packages/vckit-oa-renderers/' --filter '!./packages/credential-oa/' --filter '!./packages/demo-explorer/' --ignore-scripts
+        run: pnpm i --filter '!./packages/vckit-oa-renderers/' --filter '!./packages/credential-oa/' --filter '!./packages/demo-explorer/'
 
       - name: Build
         run: pnpm build:js
