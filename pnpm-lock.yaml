@@ -155,19 +155,19 @@ importers:
     dependencies:
       '@digitalbazaar/vc-bitstring-status-list':
         specifier: github:gs-gs/vc-bitstring-status-list
-        version: github.com/gs-gs/vc-bitstring-status-list/eb093cb2ab9cec30fa343c5459cd5695facfbf81(expo@51.0.5)(react-native@0.74.1)
+        version: github.com/gs-gs/vc-bitstring-status-list/eb093cb2ab9cec30fa343c5459cd5695facfbf81(expo@51.0.8)(react-native@0.74.1)
       '@transmute/did-context':
         specifier: 0.7.0-unstable.82
         version: 0.7.0-unstable.82
       '@transmute/did-key.js':
         specifier: 0.3.0-unstable.10
-        version: 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+        version: 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/did-web':
         specifier: 0.7.0-unstable.82
         version: 0.7.0-unstable.82
       '@transmute/vc-status-rl-2020':
         specifier: 0.7.0-unstable.82
-        version: 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
+        version: 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
       '@vckit/core-types':
         specifier: workspace:*
         version: link:../core-types
@@ -188,7 +188,7 @@ importers:
         version: link:../../.tmp_npm/veramo/packages/credential-w3c
       '@veramo/did-provider-key':
         specifier: 5.5.3
-        version: 5.5.3(expo@51.0.5)(react-native@0.74.1)
+        version: 5.5.3(expo@51.0.8)(react-native@0.74.1)
       '@veramo/did-resolver':
         specifier: 5.5.3
         version: 5.5.3
@@ -287,7 +287,7 @@ importers:
         version: 5.5.3(pg@8.11.5)(sqlite3@5.1.7)(ts-node@10.9.2)
       '@veramo/did-comm':
         specifier: 5.5.3
-        version: 5.5.3(expo@51.0.5)(react-native@0.74.1)
+        version: 5.5.3(expo@51.0.8)(react-native@0.74.1)
       '@veramo/did-discovery':
         specifier: 5.5.3
         version: 5.5.3
@@ -302,7 +302,7 @@ importers:
         version: 5.5.3
       '@veramo/did-provider-key':
         specifier: 5.5.3
-        version: 5.5.3(expo@51.0.5)(react-native@0.74.1)
+        version: 5.5.3(expo@51.0.8)(react-native@0.74.1)
       '@veramo/did-provider-pkh':
         specifier: 5.5.3
         version: 5.5.3
@@ -377,10 +377,10 @@ importers:
         version: 4.7.8
       inquirer:
         specifier: ^9.2.12
-        version: 9.2.21
+        version: 9.2.22
       inquirer-autocomplete-prompt:
         specifier: ^3.0.1
-        version: 3.0.1(inquirer@9.2.21)
+        version: 3.0.1(inquirer@9.2.22)
       json-schema:
         specifier: ^0.4.0
         version: 0.4.0
@@ -484,13 +484,13 @@ importers:
     dependencies:
       '@digitalcredentials/jsonld-signatures':
         specifier: ^9.3.2
-        version: 9.4.0(expo@51.0.5)(react-native@0.74.1)
+        version: 9.4.0(expo@51.0.8)(react-native@0.74.1)
       '@digitalcredentials/vc':
         specifier: ^6.0.0
-        version: 6.0.1(expo@51.0.5)(react-native@0.74.1)
+        version: 6.0.1(expo@51.0.8)(react-native@0.74.1)
       '@transmute/json-web-signature':
         specifier: 0.7.0-unstable.82
-        version: 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
+        version: 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
       '@transmute/merkle-proof':
         specifier: 0.7.0-unstable.82
         version: 0.7.0-unstable.82
@@ -514,7 +514,7 @@ importers:
         version: 0.6.2
       jsonld:
         specifier: npm:@digitalcredentials/jsonld@^5.2.1
-        version: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
+        version: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
       pako:
         specifier: ^2.1.0
         version: 2.1.0
@@ -591,7 +591,7 @@ importers:
         version: 3.2.1
       '@jsonforms/material-renderers':
         specifier: ^3.1.0
-        version: 3.2.1(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@jsonforms/core@3.2.1)(@jsonforms/react@3.2.1)(@mui/icons-material@5.15.17)(@mui/material@5.15.17)(@mui/x-date-pickers@6.19.9)(react@18.2.0)
+        version: 3.2.1(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@jsonforms/core@3.2.1)(@jsonforms/react@3.2.1)(@mui/icons-material@5.15.18)(@mui/material@5.15.18)(@mui/x-date-pickers@6.19.12)(react@18.2.0)
       '@jsonforms/react':
         specifier: ^3.1.0
         version: 3.2.1(@jsonforms/core@3.2.1)(react@18.2.0)
@@ -631,7 +631,7 @@ importers:
         version: 5.3.7(react-dom@18.2.0)(react@18.2.0)
       '@ant-design/pro-components':
         specifier: ^2.6.43
-        version: 2.7.1(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+        version: 2.7.9(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
       '@babel/plugin-syntax-import-assertions':
         specifier: ^7.23.3
         version: 7.23.3(@babel/core@7.24.5)
@@ -649,16 +649,16 @@ importers:
         version: 5.7.2
       '@rjsf/antd':
         specifier: ^5.15.1
-        version: 5.18.3(@ant-design/icons@5.3.7)(@rjsf/core@5.18.3)(@rjsf/utils@5.18.3)(antd@5.12.8)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0)
+        version: 5.18.4(@ant-design/icons@5.3.7)(@rjsf/core@5.18.4)(@rjsf/utils@5.18.4)(antd@5.12.8)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0)
       '@rjsf/core':
         specifier: ^5.15.1
-        version: 5.18.3(@rjsf/utils@5.18.3)(react@18.2.0)
+        version: 5.18.4(@rjsf/utils@5.18.4)(react@18.2.0)
       '@rjsf/utils':
         specifier: ^5.15.1
-        version: 5.18.3(react@18.2.0)
+        version: 5.18.4(react@18.2.0)
       '@rjsf/validator-ajv8':
         specifier: ^5.15.1
-        version: 5.18.3(@rjsf/utils@5.18.3)
+        version: 5.18.4(@rjsf/utils@5.18.4)
       '@semantic-release/commit-analyzer':
         specifier: ^11.1.0
         version: 11.1.0(semantic-release@22.0.12)
@@ -739,7 +739,7 @@ importers:
         version: 5.5.3
       '@veramo/did-comm':
         specifier: 5.5.3
-        version: 5.5.3(expo@51.0.5)(react-native@0.74.1)
+        version: 5.5.3(expo@51.0.8)(react-native@0.74.1)
       '@veramo/did-discovery':
         specifier: 5.5.3
         version: 5.5.3
@@ -919,7 +919,7 @@ importers:
         version: 5.5.3
       '@veramo/did-comm':
         specifier: 5.5.3
-        version: 5.5.3(expo@51.0.5)(react-native@0.74.1)
+        version: 5.5.3(expo@51.0.8)(react-native@0.74.1)
       '@veramo/did-jwt':
         specifier: 5.5.3
         version: 5.5.3
@@ -934,7 +934,7 @@ importers:
         version: 5.5.3
       '@veramo/did-provider-key':
         specifier: 5.5.3
-        version: 5.5.3(expo@51.0.5)(react-native@0.74.1)
+        version: 5.5.3(expo@51.0.8)(react-native@0.74.1)
       '@veramo/did-provider-pkh':
         specifier: 5.5.3
         version: 5.5.3
@@ -1114,7 +1114,7 @@ importers:
         version: 7.6.19(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
       '@storybook/react-webpack5':
         specifier: ^7.1.0-rc.2
-        version: 7.6.19(@babel/core@7.24.5)(@swc/core@1.5.6)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
+        version: 7.6.19(@babel/core@7.24.5)(@swc/core@1.5.7)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
       '@storybook/testing-library':
         specifier: ^0.2.0
         version: 0.2.2
@@ -1159,7 +1159,7 @@ importers:
         version: 18.2.0(react@18.2.0)
       react-scripts:
         specifier: 5.0.1
-        version: 5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@swc/core@1.5.6)(esbuild@0.18.20)(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.2)(typescript@5.1.6)
+        version: 5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@swc/core@1.5.7)(esbuild@0.18.20)(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.2)(typescript@5.1.6)
       storybook:
         specifier: ^7.1.0-rc.2
         version: 7.6.19
@@ -1174,7 +1174,7 @@ importers:
         version: 2.1.4
       webpack:
         specifier: 5.88.2
-        version: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+        version: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
 
   packages/remote-server:
     dependencies:
@@ -1235,7 +1235,7 @@ importers:
     dependencies:
       '@digitalcredentials/jsonld':
         specifier: ^6.0.0
-        version: 6.0.0(expo@51.0.5)(react-native@0.74.1)
+        version: 6.0.0(expo@51.0.8)(react-native@0.74.1)
       '@vckit/core-types':
         specifier: workspace:^
         version: link:../core-types
@@ -1251,7 +1251,7 @@ importers:
     dependencies:
       '@digitalbazaar/vc':
         specifier: ^6.2.0
-        version: 6.2.0(expo@51.0.5)(react-native@0.74.1)
+        version: 6.3.0(expo@51.0.8)(react-native@0.74.1)
       '@govtechsg/oa-encryption':
         specifier: ^1.3.5
         version: 1.3.5
@@ -1260,19 +1260,19 @@ importers:
         version: 0.7.0-unstable.82
       '@transmute/did-key.js':
         specifier: 0.3.0-unstable.10
-        version: 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+        version: 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/did-web':
         specifier: 0.7.0-unstable.82
         version: 0.7.0-unstable.82
       '@transmute/ed25519-signature-2018':
         specifier: 0.7.0-unstable.82
-        version: 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
+        version: 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
       '@transmute/json-web-signature':
         specifier: 0.7.0-unstable.82
-        version: 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
+        version: 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
       '@transmute/vc-status-rl-2020':
         specifier: 0.7.0-unstable.82
-        version: 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
+        version: 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
       '@vckit/core-types':
         specifier: workspace:^
         version: link:../core-types
@@ -1299,7 +1299,7 @@ importers:
         version: 1.2.0
       jsonld-signatures:
         specifier: ^11.2.1
-        version: 11.2.1(expo@51.0.5)(react-native@0.74.1)
+        version: 11.2.1(expo@51.0.8)(react-native@0.74.1)
       typeorm:
         specifier: ^0.3.19
         version: 0.3.20(pg@8.11.5)(sqlite3@5.1.7)(ts-node@10.9.2)
@@ -1581,7 +1581,7 @@ packages:
       '@emotion/unitless': 0.7.5
       classnames: 2.5.1
       csstype: 3.1.3
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       stylis: 4.3.2
@@ -1602,48 +1602,48 @@ packages:
       '@ant-design/icons-svg': 4.4.2
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@ant-design/pro-card@2.6.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-LiZwTUFHNU8t7bJsp51DnSmuct2uY2WHxl+dMcWCpsW2V6KRPws4raGo96SDMPfGjwbF0YrMZhR9yO7qmI5nag==}
+  /@ant-design/pro-card@2.8.3(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-kGn7fak6EH81GKn12ly/BQowAGGq8eHAZxmj9vj+8quunZKam0HrEvgMKO0FuezNeLwKA6CdVo1F8V+jojCbyA==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
       omit.js: 2.0.2
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     transitivePeerDependencies:
       - react-dom
     dev: true
 
-  /@ant-design/pro-components@2.7.1(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-9e1BCrDNZ4NZXt7sY9eotVOFa506Pnwhsg9alRWfAzn36IpLt0o9/VllBSAR3WeGaUn452vEEOWJTsCVW4Jq4w==}
+  /@ant-design/pro-components@2.7.9(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Ks+FgPG9NMXD2R9sBpTxu5wAS5uLTXmVWaHe8TMSBf+VIJU2s4VWAMAYqQ3doMZ7M4E8aV22khmimgFJp1BWWQ==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
-      '@ant-design/pro-card': 2.6.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-descriptions': 2.5.37(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-field': 2.14.10(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-form': 2.26.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-layout': 7.19.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-list': 2.5.52(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-skeleton': 2.1.11(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-table': 3.15.3(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-card': 2.8.3(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-descriptions': 2.5.44(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-field': 2.14.17(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-form': 2.27.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-layout': 7.19.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-list': 2.5.60(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-skeleton': 2.1.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-table': 3.16.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
@@ -1653,20 +1653,21 @@ packages:
       - rc-field-form
     dev: true
 
-  /@ant-design/pro-descriptions@2.5.37(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-YaMs0IGQ39n8jMDUQjhpWW6uZMDktgxAAYwUE9s1tF2XK/ySQSdfylsGvMHZFKqWPRnOqNFIYQ1kAcDLIO9KXQ==}
+  /@ant-design/pro-descriptions@2.5.44(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-saohrWDYXQ2XUnkz3heSOwfdyxwIJ/cqPZOEiWS/oEoWUAetvJRsKf/+orG/mD8nk40Na+nSfWAwg+unMB0RAQ==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
     dependencies:
-      '@ant-design/pro-field': 2.14.10(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-form': 2.26.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-skeleton': 2.1.11(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-field': 2.14.17(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-form': 2.27.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-skeleton': 2.1.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 0.2.6(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
     transitivePeerDependencies:
       - '@types/lodash.merge'
@@ -1674,15 +1675,15 @@ packages:
       - react-dom
     dev: true
 
-  /@ant-design/pro-field@2.14.10(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Q5JIfZJheQKbxgpX29xNwQgsP+fA9WYD4ov5QBLBn1ePUqOreXOQK4cLMBPxxD5MOMULihzHoKi3JOBmuyBCUw==}
+  /@ant-design/pro-field@2.14.17(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-4wvPNzzHceIpiglhfqrPPGBWlrMWTsP2hr7V8vVNYCL0q6SzFlDKd4b4kFlSaOhpwSAUhqQ0/Rxpi3g6pNLRvQ==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       '@chenshuai2144/sketch-color': 1.0.9(react@18.2.0)
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
@@ -1690,15 +1691,15 @@ packages:
       dayjs: 1.11.11
       lodash.tonumber: 4.0.3
       omit.js: 2.0.2
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       swr: 2.2.5(react@18.2.0)
     transitivePeerDependencies:
       - react-dom
     dev: true
 
-  /@ant-design/pro-form@2.26.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-K542iiEM0mS/U2iaBHhJjsNinsquy4ZSSfoz6dRdFg6OQEU6+qxx7SpvXpVAGk+CtTxDTmd6u0EKlyVl6shK5Q==}
+  /@ant-design/pro-form@2.27.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-G4E3LzjDc9OznWTJWD/sAMivsL1eVcxIf0MYHj1OirfasONFDX1qWqSe7O8/HoUS/JfnlT7ChEU5yVT3igPjTg==}
     peerDependencies:
       '@types/lodash.merge': ^4.6.7
       antd: ^4.24.15 || ^5.11.2
@@ -1710,9 +1711,9 @@ packages:
         optional: true
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-field': 2.14.10(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-field': 2.14.17(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       '@chenshuai2144/sketch-color': 1.0.9(react@18.2.0)
       '@umijs/use-params': 1.0.9(react@18.2.0)
@@ -1723,21 +1724,21 @@ packages:
       omit.js: 2.0.2
       rc-field-form: 1.44.0(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@ant-design/pro-layout@7.19.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-JquPxUMFuEZ0kAgs75ECsRFEgygmXawk/oAvEvKNuNTavrUyU/8EJHN+oAETjKdhtsst0Wp5MJKQqPZAcQdYnA==}
+  /@ant-design/pro-layout@7.19.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Kww2CxvOeIRhnhO2gM7pu8nforcjAic6wGAPsXWcrsLy6by2NIvMNIeNCcEfgGMCJVodp8p8YOBI4wCu6JOt7g==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       '@umijs/route-utils': 4.0.1
       '@umijs/use-params': 1.0.9(react@18.2.0)
@@ -1747,25 +1748,25 @@ packages:
       omit.js: 2.0.2
       path-to-regexp: 2.4.0
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       swr: 2.2.5(react@18.2.0)
       warning: 4.0.3
     dev: true
 
-  /@ant-design/pro-list@2.5.52(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Ndro8YKubSQxFDJ3ZTMU9esZJAjye9TqKMLd768ST86nWvSeDrm8A0oUIKtyMgvnbzsh7YXj4JgexGUNJJPaGg==}
+  /@ant-design/pro-list@2.5.60(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-+FHMRI3vzwcPBmB3EBwy8SPoouFafYWzN+mT4/Ddrma0NwdinZvIFJFDoF9aYauzYfoKMmV7aTphNZEjy/u9Zg==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-card': 2.6.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-field': 2.14.10(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-table': 3.15.3(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-card': 2.8.3(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-field': 2.14.17(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-table': 3.16.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
@@ -1779,8 +1780,8 @@ packages:
       - rc-field-form
     dev: true
 
-  /@ant-design/pro-provider@2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-N8hTUNJc7dtIjj79ZFviielizo15nOUyjrmz9Ll0Mn68Btne2FLpf8cKHsUMdA+yLDW9oM0ExcqIWJOKyx0nUg==}
+  /@ant-design/pro-provider@2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-yEAOph/fTzIhOWMtYAbcsjffyYq8tL6IgMQqRlYZmIisVMRDZZ32F+Ab18a4S18foZiDChEr0e6NZuuY7du5rA==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
@@ -1790,14 +1791,14 @@ packages:
       '@babel/runtime': 7.24.5
       '@ctrl/tinycolor': 3.6.1
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       swr: 2.2.5(react@18.2.0)
     dev: true
 
-  /@ant-design/pro-skeleton@2.1.11(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-a1drmZSDXHFexFniN1YD7PgYiWvhdBAM9OwzSOO3eXPAltAg2cGcaVBlFmweShN+dupO220RN+6aaLUv3G9B2Q==}
+  /@ant-design/pro-skeleton@2.1.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Z2+DpJaFzO6gbmDW8lTceHy2vOpwKQUVRteAh5Ac3NSPeZFUDoyxZGOmA2jN/BxlSQnhrR88vhwXi+KouEqxcg==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
@@ -1809,8 +1810,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@ant-design/pro-table@3.15.3(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-85LMPOsE8vqnKO0/C/r1fLBMhG5jfBUzSlzO7dtDKNzgR3FIeIdOBm49rtoKJ3sHdf3HV3sFazHkOUv9aXQ6Bg==}
+  /@ant-design/pro-table@3.16.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-8n1nvnA5eVv6n3CKMx5cJA8uzLYFGMS0+BInOjqgvAEU1z0hshg4MXnySTlhl/Q7LyVgRYISkV2+tonxs+GIYg==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       rc-field-form: ^1.22.0
@@ -1818,11 +1819,11 @@ packages:
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-card': 2.6.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-field': 2.14.10(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-form': 2.26.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-utils': 2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-card': 2.8.3(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-field': 2.14.17(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-form': 2.27.0(antd@5.12.8)(rc-field-form@1.44.0)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-utils': 2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       '@dnd-kit/core': 6.1.0(react-dom@18.2.0)(react@18.2.0)
       '@dnd-kit/modifiers': 6.0.1(@dnd-kit/core@6.1.0)(react@18.2.0)
@@ -1835,28 +1836,28 @@ packages:
       omit.js: 2.0.2
       rc-field-form: 1.44.0(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - '@types/lodash.merge'
     dev: true
 
-  /@ant-design/pro-utils@2.15.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-VMK1mkb9St4OoEoekW0qUqkKK632XOGjBZusKjlfP9WPwv+MP8bPAB2jOH89JoY8SIQ87Zod6lMgWLMJX3qbOw==}
+  /@ant-design/pro-utils@2.15.13(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-2XfTgipPCMblaalO2bzx0EVfFYSNAfKpD5Y9rasAjbgnUpE33ItE5PkPuz9AfyVz2reB8Y/Di7zQRpd2B/ytww==}
     peerDependencies:
       antd: ^4.24.15 || ^5.11.2
       react: '>=17.0.0'
       react-dom: '>=17.0.0'
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@ant-design/pro-provider': 2.14.1(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-provider': 2.14.7(antd@5.12.8)(react-dom@18.2.0)(react@18.2.0)
       '@babel/runtime': 7.24.5
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
       dayjs: 1.11.11
       lodash.merge: 4.6.2
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       safe-stable-stringify: 2.4.3
@@ -3904,12 +3905,12 @@ packages:
       factory.ts: 0.5.2
     dev: false
 
-  /@did-core/did-ld-json@0.1.1-unstable.15(expo@51.0.5)(react-native@0.74.1):
+  /@did-core/did-ld-json@0.1.1-unstable.15(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-p2jKRxSU+eJJqd+ewCklYp/XZ6ysISk8VU2/kANCoB/WwUy/kVgw2rUNScRDXw2utr9Qj36P8EZTYi4aj7vRCQ==}
     engines: {node: '>=10'}
     dependencies:
       '@transmute/did-context': 0.6.1-unstable.37
-      jsonld-checker: 0.1.8(expo@51.0.5)(react-native@0.74.1)
+      jsonld-checker: 0.1.8(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - domexception
       - encoding
@@ -3939,12 +3940,12 @@ packages:
     resolution: {integrity: sha512-cMVtd+EV+4KN2kUG4/vsV74JVsGE6dcpod6zRoFB/AJA2W/sZbJqR44KL3G6P262+GcAECNhtnSsKsTnQ6y8+w==}
     dev: false
 
-  /@digitalbazaar/vc-status-list@7.1.0(expo@51.0.5)(react-native@0.74.1):
+  /@digitalbazaar/vc-status-list@7.1.0(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-p5uxKJlX13N8TcTuv9qFDeej+6bndU+Rh1Cez2MT+bXQE6Jpn5t336FBSHmcECB4yUfZQpkmV/LOcYU4lW8Ojw==}
     engines: {node: '>=16'}
     dependencies:
       '@digitalbazaar/bitstring': 3.1.0
-      '@digitalbazaar/vc': 5.0.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalbazaar/vc': 5.0.0(expo@51.0.8)(react-native@0.74.1)
       '@digitalbazaar/vc-status-list-context': 3.1.1
       credentials-context: 2.0.0
     transitivePeerDependencies:
@@ -3954,13 +3955,13 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@digitalbazaar/vc@5.0.0(expo@51.0.5)(react-native@0.74.1):
+  /@digitalbazaar/vc@5.0.0(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-XmLM7Ag5W+XidGnFuxFIyUFSMnHnWEMJlHei602GG94+WzFJ6Ik8txzPQL8T18egSoiTsd1VekymbIlSimhuaQ==}
     engines: {node: '>=14'}
     dependencies:
       credentials-context: 2.0.0
-      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
-      jsonld-signatures: 11.2.1(expo@51.0.5)(react-native@0.74.1)
+      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
+      jsonld-signatures: 11.2.1(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - domexception
       - expo
@@ -3968,13 +3969,13 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@digitalbazaar/vc@6.2.0(expo@51.0.5)(react-native@0.74.1):
-    resolution: {integrity: sha512-BzLLFJlQg+aarxdIARlD42P0cgOFPvta8PWDuCW7IFv5jXsPb9/QTqlsxRKOmcKLJzMcdqkVOSLt0tc46jXSXg==}
-    engines: {node: '>=14'}
+  /@digitalbazaar/vc@6.3.0(expo@51.0.8)(react-native@0.74.1):
+    resolution: {integrity: sha512-zgrV387lEek2NUoji8jNYRGJhlrWZnZRLfvfVdCd2/ONjcDa3eV8sM5H7s1hnTGJl8DB7ArtrhNiirxEllD0Fw==}
+    engines: {node: '>=18'}
     dependencies:
       credentials-context: 2.0.0
-      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
-      jsonld-signatures: 11.2.1(expo@51.0.5)(react-native@0.74.1)
+      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
+      jsonld-signatures: 11.2.1(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - domexception
       - expo
@@ -4002,13 +4003,13 @@ packages:
       pako: 2.1.0
     dev: false
 
-  /@digitalcredentials/ed25519-signature-2020@3.0.2(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/ed25519-signature-2020@3.0.2(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-R8IrR21Dh+75CYriQov3nVHKaOVusbxfk9gyi6eCAwLHKn6fllUt+2LQfuUrL7Ts/sGIJqQcev7YvkX9GvyYRA==}
     engines: {node: '>=14'}
     dependencies:
       '@digitalcredentials/base58-universal': 1.0.1
       '@digitalcredentials/ed25519-verification-key-2020': 3.2.2
-      '@digitalcredentials/jsonld-signatures': 9.4.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalcredentials/jsonld-signatures': 9.4.0(expo@51.0.8)(react-native@0.74.1)
       ed25519-signature-2018-context: 1.1.0
       ed25519-signature-2020-context: 1.1.0
     transitivePeerDependencies:
@@ -4039,14 +4040,14 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@digitalcredentials/jsonld-signatures@9.4.0(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/jsonld-signatures@9.4.0(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-DnR+HDTm7qpcDd0wcD1w6GdlAwfHjQSgu+ahion8REkCkkMRywF+CLunU7t8AZpFB2Gr/+N8naUtiEBNje1Oew==}
     engines: {node: '>=18'}
     dependencies:
       '@digitalbazaar/security-context': 1.0.1
-      '@digitalcredentials/jsonld': 6.0.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalcredentials/jsonld': 6.0.0(expo@51.0.8)(react-native@0.74.1)
       fast-text-encoding: 1.0.6
-      isomorphic-webcrypto: 2.3.8(expo@51.0.5)(react-native@0.74.1)
+      isomorphic-webcrypto: 2.3.8(expo@51.0.8)(react-native@0.74.1)
       serialize-error: 8.1.0
     transitivePeerDependencies:
       - domexception
@@ -4055,12 +4056,12 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-hz7YR3kv6+8UUdgMyTGl1o8NjVKKwnMry/Rh/rWeAvwL+NqgoUHorWzI3rM+PW+MPFyDC0ieXStClt9n9D9SGA==}
     engines: {node: '>=12'}
     dependencies:
       '@digitalcredentials/http-client': 1.2.2
-      '@digitalcredentials/rdf-canonize': 1.0.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalcredentials/rdf-canonize': 1.0.0(expo@51.0.8)(react-native@0.74.1)
       canonicalize: 1.0.8
       lru-cache: 6.0.0
     transitivePeerDependencies:
@@ -4070,12 +4071,12 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@digitalcredentials/jsonld@6.0.0(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/jsonld@6.0.0(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-5tTakj0/GsqAJi8beQFVMQ97wUJZnuxViW9xRuAATL6eOBIefGBwHkVryAgEq2I4J/xKgb/nEyw1ZXX0G8wQJQ==}
     engines: {node: '>=12'}
     dependencies:
       '@digitalcredentials/http-client': 1.2.2
-      '@digitalcredentials/rdf-canonize': 1.0.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalcredentials/rdf-canonize': 1.0.0(expo@51.0.8)(react-native@0.74.1)
       canonicalize: 1.0.8
       lru-cache: 6.0.0
     transitivePeerDependencies:
@@ -4089,24 +4090,24 @@ packages:
     resolution: {integrity: sha512-VK7X5u6OoBFxkyIFplNqUPVbo+8vFSAEoam8tSozpj05KPfcGw41Tp5p9fqMnY38oPfwtZR2yDNSctj/slrE0A==}
     dev: false
 
-  /@digitalcredentials/rdf-canonize@1.0.0(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/rdf-canonize@1.0.0(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-z8St0Ex2doecsExCFK1uI4gJC+a5EqYYu1xpRH1pKmqSS9l/nxfuVxexNFyaeEum4dUdg1EetIC2rTwLIFhPRA==}
     engines: {node: '>=12'}
     dependencies:
       fast-text-encoding: 1.0.6
-      isomorphic-webcrypto: 2.3.8(expo@51.0.5)(react-native@0.74.1)
+      isomorphic-webcrypto: 2.3.8(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - expo
       - react-native
     dev: false
 
-  /@digitalcredentials/vc-status-list@5.0.2(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/vc-status-list@5.0.2(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-PI0N7SM0tXpaNLelbCNsMAi34AjOeuhUzMSYTkHdeqRPX7oT2F3ukyOssgr4koEqDxw9shHtxHu3fSJzrzcPMQ==}
     engines: {node: '>=14'}
     dependencies:
       '@digitalbazaar/vc-status-list-context': 3.1.1
       '@digitalcredentials/bitstring': 2.0.1
-      '@digitalcredentials/vc': 4.2.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalcredentials/vc': 4.2.0(expo@51.0.8)(react-native@0.74.1)
       credentials-context: 2.0.0
     transitivePeerDependencies:
       - domexception
@@ -4115,12 +4116,12 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@digitalcredentials/vc@4.2.0(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/vc@4.2.0(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-8Rxpn77JghJN7noBQdcMuzm/tB8vhDwPoFepr3oGd5w+CyJxOk2RnBlgIGlAAGA+mALFWECPv1rANfXno+hdjA==}
     engines: {node: '>=12'}
     dependencies:
-      '@digitalcredentials/jsonld': 5.2.2(expo@51.0.5)(react-native@0.74.1)
-      '@digitalcredentials/jsonld-signatures': 9.4.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalcredentials/jsonld': 5.2.2(expo@51.0.8)(react-native@0.74.1)
+      '@digitalcredentials/jsonld-signatures': 9.4.0(expo@51.0.8)(react-native@0.74.1)
       credentials-context: 2.0.0
     transitivePeerDependencies:
       - domexception
@@ -4129,16 +4130,16 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@digitalcredentials/vc@6.0.1(expo@51.0.5)(react-native@0.74.1):
+  /@digitalcredentials/vc@6.0.1(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-TZgLoi00Jc9uv3b6jStH+G8+bCqpHIqFw9DYODz+fVjNh197ksvcYqSndUDHa2oi0HCcK+soI8j4ba3Sa4Pl4w==}
     engines: {node: '>=12'}
     dependencies:
-      '@digitalbazaar/vc-status-list': 7.1.0(expo@51.0.5)(react-native@0.74.1)
-      '@digitalcredentials/ed25519-signature-2020': 3.0.2(expo@51.0.5)(react-native@0.74.1)
-      '@digitalcredentials/jsonld': 6.0.0(expo@51.0.5)(react-native@0.74.1)
-      '@digitalcredentials/jsonld-signatures': 9.4.0(expo@51.0.5)(react-native@0.74.1)
+      '@digitalbazaar/vc-status-list': 7.1.0(expo@51.0.8)(react-native@0.74.1)
+      '@digitalcredentials/ed25519-signature-2020': 3.0.2(expo@51.0.8)(react-native@0.74.1)
+      '@digitalcredentials/jsonld': 6.0.0(expo@51.0.8)(react-native@0.74.1)
+      '@digitalcredentials/jsonld-signatures': 9.4.0(expo@51.0.8)(react-native@0.74.1)
       '@digitalcredentials/open-badges-context': 2.1.0
-      '@digitalcredentials/vc-status-list': 5.0.2(expo@51.0.5)(react-native@0.74.1)
+      '@digitalcredentials/vc-status-list': 5.0.2(expo@51.0.8)(react-native@0.74.1)
       credentials-context: 2.0.0
       fix-esm: 1.0.1
     transitivePeerDependencies:
@@ -5074,23 +5075,23 @@ packages:
       safe-json-stringify: 1.2.0
     optional: true
 
-  /@expo/cli@0.18.11(expo-modules-autolinking@1.11.1):
-    resolution: {integrity: sha512-2xIfvj5RnQbQqZdkYa9a7Roll1ywBER2omCUKdbJazRcJTkkN3HMv/jILztdZ2uKlcfIqPq4VTbKEhV/IkewYg==}
+  /@expo/cli@0.18.13(expo-modules-autolinking@1.11.1):
+    resolution: {integrity: sha512-ZO1fpDK8z6mLeQGuFP6e3cZyCHV55ohZY7/tEyhpft3bwysS680eyFg5SFe+tWNFesnziFrbtI8JaUyhyjqovA==}
     hasBin: true
     dependencies:
       '@babel/runtime': 7.24.5
       '@expo/code-signing-certificates': 0.0.5
-      '@expo/config': 9.0.1
+      '@expo/config': 9.0.2
       '@expo/config-plugins': 8.0.4
-      '@expo/devcert': 1.1.0
+      '@expo/devcert': 1.1.2
       '@expo/env': 0.3.0
       '@expo/image-utils': 0.5.1
       '@expo/json-file': 8.3.3
-      '@expo/metro-config': 0.18.3
+      '@expo/metro-config': 0.18.4
       '@expo/osascript': 2.1.2
       '@expo/package-manager': 1.5.2
       '@expo/plist': 0.1.3
-      '@expo/prebuild-config': 7.0.3(expo-modules-autolinking@1.11.1)
+      '@expo/prebuild-config': 7.0.4(expo-modules-autolinking@1.11.1)
       '@expo/rudder-sdk-node': 1.1.1
       '@expo/spawn-async': 1.7.2
       '@expo/xcpretty': 4.3.1
@@ -5101,7 +5102,7 @@ packages:
       arg: 5.0.2
       better-opn: 3.0.2
       bplist-parser: 0.3.2
-      cacache: 15.3.0
+      cacache: 18.0.3
       chalk: 4.1.2
       ci-info: 3.9.0
       connect: 3.7.0
@@ -5155,7 +5156,6 @@ packages:
       wrap-ansi: 7.0.0
       ws: 8.17.0
     transitivePeerDependencies:
-      - bluebird
       - bufferutil
       - encoding
       - expo-modules-autolinking
@@ -5196,8 +5196,8 @@ packages:
     resolution: {integrity: sha512-acn03/u8mQvBhdTQtA7CNhevMltUhbSrpI01FYBJwpVntufkU++ncQujWKlgY/OwIajcfygk1AY4xcNZ5ImkRA==}
     optional: true
 
-  /@expo/config@9.0.1:
-    resolution: {integrity: sha512-0tjaXBstTbXmD4z+UMFBkh2SZFwilizSQhW6DlaTMnPG5ezuw93zSFEWAuEC3YzkpVtNQTmYzxAYjxwh6seOGg==}
+  /@expo/config@9.0.2:
+    resolution: {integrity: sha512-BKQ4/qBf3OLT8hHp5kjObk2vxwoRQ1yYQBbG/OM9Jdz32yYtrU8opTbKRAxfZEWH5i3ZHdLrPdC1rO0I6WxtTw==}
     dependencies:
       '@babel/code-frame': 7.10.4
       '@expo/config-plugins': 8.0.4
@@ -5214,8 +5214,8 @@ packages:
       - supports-color
     optional: true
 
-  /@expo/devcert@1.1.0:
-    resolution: {integrity: sha512-ghUVhNJQOCTdQckSGTHctNp/0jzvVoMMkVh+6SHn+TZj8sU15U/npXIDt8NtQp0HedlPaCgkVdMu8Sacne0aEA==}
+  /@expo/devcert@1.1.2:
+    resolution: {integrity: sha512-FyWghLu7rUaZEZSTLt/XNRukm0c9GFfwP0iFaswoDWpV6alvVg+zRAfCLdIVQEz1SVcQ3zo1hMZFDrnKGvkCuQ==}
     dependencies:
       application-config-path: 0.1.1
       command-exists: 1.2.9
@@ -5271,14 +5271,14 @@ packages:
       write-file-atomic: 2.4.3
     optional: true
 
-  /@expo/metro-config@0.18.3:
-    resolution: {integrity: sha512-E4iW+VT/xHPPv+t68dViOsW7egtGIr+sRElcym0iGpC4goLz9WBux/xGzWgxvgvvHEWa21uSZQPM0jWla0OZXg==}
+  /@expo/metro-config@0.18.4:
+    resolution: {integrity: sha512-vh9WDf/SzE+NYCn6gqbzLKiXtENFlFZdAqyj9nI38RvQ4jw6TJIQ8+ExcdLDT3MOG36Ytg44XX9Zb3OWF6LVxw==}
     dependencies:
       '@babel/core': 7.24.5
       '@babel/generator': 7.24.5
       '@babel/parser': 7.24.5
       '@babel/types': 7.24.5
-      '@expo/config': 9.0.1
+      '@expo/config': 9.0.2
       '@expo/env': 0.3.0
       '@expo/json-file': 8.3.3
       '@expo/spawn-async': 1.7.2
@@ -5329,12 +5329,12 @@ packages:
       xmlbuilder: 14.0.0
     optional: true
 
-  /@expo/prebuild-config@7.0.3(expo-modules-autolinking@1.11.1):
-    resolution: {integrity: sha512-Kvxy/oQzkxwXLvAmwb+ygxuRn4xUUN2+mVJj3KDe4bRVCNyDPs7wlgdokF3twnWjzRZssUzseMkhp+yHPjAEhA==}
+  /@expo/prebuild-config@7.0.4(expo-modules-autolinking@1.11.1):
+    resolution: {integrity: sha512-E2n3QbwgV8Qa0CBw7BHrWBDWD7l8yw+N/yjvXpSPFFtoZLMSKyegdkJFACh2u+UIRKUSZm8zQwHeZR0rqAxV9g==}
     peerDependencies:
       expo-modules-autolinking: '>=0.8.1'
     dependencies:
-      '@expo/config': 9.0.1
+      '@expo/config': 9.0.2
       '@expo/config-plugins': 8.0.4
       '@expo/config-types': 51.0.0
       '@expo/image-utils': 0.5.1
@@ -5397,19 +5397,19 @@ packages:
     resolution: {integrity: sha512-cEee/Z+I12mZcFJshKcCqC8tuX5hG3s+d+9nZ3LabqKF1vKdF41B92pJVCBggjAGORAeOzyyDDKrZwIkLffeOQ==}
     dev: true
 
-  /@floating-ui/core@1.6.1:
-    resolution: {integrity: sha512-42UH54oPZHPdRHdw6BgoBD6cg/eVTmVrFcgeRDM3jbO7uxSoipVcmcIGFcA5jmOHO5apcyvBhkSKES3fQJnu7A==}
+  /@floating-ui/core@1.6.2:
+    resolution: {integrity: sha512-+2XpQV9LLZeanU4ZevzRnGFg2neDeKHgFLjP6YLW+tly0IvrhqT4u8enLGjLH3qeh85g19xY5rsAusfwTdn5lg==}
     dependencies:
       '@floating-ui/utils': 0.2.2
 
   /@floating-ui/dom@1.6.5:
     resolution: {integrity: sha512-Nsdud2X65Dz+1RHjAIP0t8z5e2ff/IRbei6BqFrl1urT8sDVzM1HMQ+R0XcU5ceRfyO3I6ayeqIfh+6Wb8LGTw==}
     dependencies:
-      '@floating-ui/core': 1.6.1
+      '@floating-ui/core': 1.6.2
       '@floating-ui/utils': 0.2.2
 
-  /@floating-ui/react-dom@2.0.9(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-q0umO0+LQK4+p6aGyvzASqKbKOJcAHJ7ycE9CuUvfx3s9zTHWmGJTPOIlM/hmSBfUfg/XfY5YhLBLR/LHwShQQ==}
+  /@floating-ui/react-dom@2.1.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-lNzj5EQmEKn5FFKc04+zasr09h/uX8RtJRNj5gUXsSQIXHVWTVh+hVAg1vOMCexkX8EgvemMvIFpQfkosnVNyA==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -5491,7 +5491,7 @@ packages:
   /@govtechsg/dnsprove@2.7.1:
     resolution: {integrity: sha512-OtDPQWfWzoLN09B8NM0Noya82AJ1M+kValqbKbMABN0GeRHgoNoGaeMvsh7oVT7pfGFMe7mwAskEQ4o1QF7H6w==}
     dependencies:
-      axios: 1.6.8(debug@4.3.4)
+      axios: 1.7.1(debug@4.3.4)
       debug: 4.3.4(supports-color@6.1.0)
       runtypes: 6.7.0
     transitivePeerDependencies:
@@ -5524,7 +5524,7 @@ packages:
     dependencies:
       '@govtechsg/dnsprove': 2.7.1
       '@govtechsg/open-attestation': 6.9.2
-      axios: 1.6.8(debug@4.3.4)
+      axios: 1.7.1(debug@4.3.4)
       debug: 4.3.4(supports-color@6.1.0)
       did-resolver: 4.1.0
       ethers: 5.7.2
@@ -5658,8 +5658,8 @@ packages:
       react: 16.14.0
     dev: true
 
-  /@inquirer/figures@1.0.1:
-    resolution: {integrity: sha512-mtup3wVKia3ZwULPHcbs4Mor8Voi+iIXEWD7wCNbIO6lYR62oPCTQyrddi5OMYVXHzeCSoneZwJuS8sBvlEwDw==}
+  /@inquirer/figures@1.0.2:
+    resolution: {integrity: sha512-4F1MBwVr3c/m4bAUef6LgkvBfSjzwH+OfldgHqcuacWwSUetFebM2wi58WfG9uk1rR98U6GwLed4asLJbwdV5w==}
     engines: {node: '>=18'}
     dev: false
 
@@ -6418,7 +6418,7 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@jsonforms/material-renderers@3.2.1(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@jsonforms/core@3.2.1)(@jsonforms/react@3.2.1)(@mui/icons-material@5.15.17)(@mui/material@5.15.17)(@mui/x-date-pickers@6.19.9)(react@18.2.0):
+  /@jsonforms/material-renderers@3.2.1(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@jsonforms/core@3.2.1)(@jsonforms/react@3.2.1)(@mui/icons-material@5.15.18)(@mui/material@5.15.18)(@mui/x-date-pickers@6.19.12)(react@18.2.0):
     resolution: {integrity: sha512-NhU/UI8AFroubGibR9CkKokWPh5pEI9O4LIL87jdSLRvT38qHrceBPgYlo1cVkn0/NlGUEFbU/kvqUEpY8ORpw==}
     peerDependencies:
       '@emotion/react': ^11.4.1
@@ -6435,9 +6435,9 @@ packages:
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.46)(react@18.2.0)
       '@jsonforms/core': 3.2.1
       '@jsonforms/react': 3.2.1(@jsonforms/core@3.2.1)(react@18.2.0)
-      '@mui/icons-material': 5.15.17(@mui/material@5.15.17)(@types/react@18.2.46)(react@18.2.0)
-      '@mui/material': 5.15.17(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/x-date-pickers': 6.19.9(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@mui/material@5.15.17)(@mui/system@5.15.15)(@types/react@18.2.46)(date-fns@3.6.0)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/icons-material': 5.15.18(@mui/material@5.15.18)(@types/react@18.2.46)(react@18.2.0)
+      '@mui/material': 5.15.18(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/x-date-pickers': 6.19.12(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@mui/material@5.15.18)(@mui/system@5.15.15)(@types/react@18.2.46)(date-fns@3.6.0)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0)
       dayjs: 1.10.7
       lodash: 4.17.21
       react: 18.2.0
@@ -6834,7 +6834,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.24.5
-      '@floating-ui/react-dom': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@floating-ui/react-dom': 2.1.0(react-dom@18.2.0)(react@18.2.0)
       '@mui/types': 7.2.14(@types/react@18.2.46)
       '@mui/utils': 5.15.14(@types/react@18.2.46)(react@18.2.0)
       '@popperjs/core': 2.11.8
@@ -6845,12 +6845,12 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@mui/core-downloads-tracker@5.15.17:
-    resolution: {integrity: sha512-DVAejDQkjNnIac7MfP8sLzuo7fyrBPxNdXe+6bYqOqg1z2OPTlfFAejSNzWe7UenRMuFu9/AyFXj/X2vN2w6dA==}
+  /@mui/core-downloads-tracker@5.15.18:
+    resolution: {integrity: sha512-/9pVk+Al8qxAjwFUADv4BRZgMpZM4m5E+2Q/20qhVPuIJWqKp4Ie4tGExac6zu93rgPTYVQGgu+1vjiT0E+cEw==}
     dev: false
 
-  /@mui/icons-material@5.15.17(@mui/material@5.15.17)(@types/react@18.2.46)(react@18.2.0):
-    resolution: {integrity: sha512-xVzl2De7IY36s/keHX45YMiCpsIx3mNv2xwDgtBkRSnZQtVk+Gqufwj1ktUxEyjzEhBl0+PiNJqYC31C+n1n6A==}
+  /@mui/icons-material@5.15.18(@mui/material@5.15.18)(@types/react@18.2.46)(react@18.2.0):
+    resolution: {integrity: sha512-jGhyw02TSLM0NgW+MDQRLLRUD/K4eN9rlK2pTBTL1OtzyZmQ8nB060zK1wA0b7cVrIiG+zyrRmNAvGWXwm2N9Q==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@mui/material': ^5.0.0
@@ -6861,13 +6861,13 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.24.5
-      '@mui/material': 5.15.17(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/material': 5.15.18(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.2.46
       react: 18.2.0
     dev: false
 
-  /@mui/material@5.15.17(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ru/MLvTkCh0AZXmqwIpqGTOoVBS/sX48zArXq/DvktxXZx4fskiRA2PEc7Rk5ZlFiZhKh4moL4an+l8zZwq49Q==}
+  /@mui/material@5.15.18(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-n+/dsiqux74fFfcRUJjok+ieNQ7+BEk6/OwX9cLcLvriZrZb+/7Y8+Fd2HlUUbn5N0CDurgAHm0VH1DqyJ9HAw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@emotion/react': ^11.5.0
@@ -6887,7 +6887,7 @@ packages:
       '@emotion/react': 11.11.4(@types/react@18.2.46)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.46)(react@18.2.0)
       '@mui/base': 5.0.0-beta.40(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/core-downloads-tracker': 5.15.17
+      '@mui/core-downloads-tracker': 5.15.18
       '@mui/system': 5.15.15(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react@18.2.0)
       '@mui/types': 7.2.14(@types/react@18.2.46)
       '@mui/utils': 5.15.14(@types/react@18.2.46)(react@18.2.0)
@@ -7000,8 +7000,8 @@ packages:
       react-is: 18.3.1
     dev: false
 
-  /@mui/x-date-pickers@6.19.9(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@mui/material@5.15.17)(@mui/system@5.15.15)(@types/react@18.2.46)(date-fns@3.6.0)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-B2m4Fv/fOme5qmV6zuE3QnWQSvj3zKtI2OvikPz5prpiCcIxqpeytkQ7VfrWH3/Aqd5yhG1Yr4IgbqG0ymIXGg==}
+  /@mui/x-date-pickers@6.19.12(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@mui/material@5.15.18)(@mui/system@5.15.15)(@types/react@18.2.46)(date-fns@3.6.0)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-ohZWqb1SbO9ZbenO5SPxnHs0mi4iU6sREE3IBfTBSqVH02D68SBsWrEHOSFjuVIynao4RqeRITh4iA/anrTOsg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@emotion/react': ^11.9.0
@@ -7041,7 +7041,7 @@ packages:
       '@emotion/react': 11.11.4(@types/react@18.2.46)(react@18.2.0)
       '@emotion/styled': 11.11.5(@emotion/react@11.11.4)(@types/react@18.2.46)(react@18.2.0)
       '@mui/base': 5.0.0-beta.40(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/material': 5.15.17(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/material': 5.15.18(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react-dom@18.2.0)(react@18.2.0)
       '@mui/system': 5.15.15(@emotion/react@11.11.4)(@emotion/styled@11.11.5)(@types/react@18.2.46)(react@18.2.0)
       '@mui/utils': 5.15.14(@types/react@18.2.46)(react@18.2.0)
       '@types/react-transition-group': 4.4.10
@@ -7150,7 +7150,6 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       semver: 7.6.2
-    dev: true
 
   /@npmcli/git@5.0.7:
     resolution: {integrity: sha512-WaOVvto604d5IpdCRV2KjQu8PzkfE96d50CQGKgywXh2GxXmDeUO5EWcBC4V57uFyrNqx83+MewuJh3WTR3xPA==}
@@ -7681,7 +7680,7 @@ packages:
       react-refresh: 0.14.2
       schema-utils: 3.3.0
       source-map: 0.7.4
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     dev: true
 
   /@pnpm/config.env-replace@1.1.0:
@@ -7899,7 +7898,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.24.5
-      '@floating-ui/react-dom': 2.0.9(react-dom@18.2.0)(react@18.2.0)
+      '@floating-ui/react-dom': 2.1.0(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-arrow': 1.0.3(@types/react-dom@18.2.7)(@types/react@18.2.15)(react-dom@18.2.0)(react@18.2.0)
       '@radix-ui/react-compose-refs': 1.0.1(@types/react@18.2.15)(react@18.2.0)
       '@radix-ui/react-context': 1.0.1(@types/react@18.2.15)(react@18.2.0)
@@ -8278,7 +8277,7 @@ packages:
       '@babel/runtime': 7.24.5
       '@ctrl/tinycolor': 3.6.1
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -8290,7 +8289,7 @@ packages:
       react-dom: '>=16.9.0'
     dependencies:
       '@babel/runtime': 7.24.5
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -8311,7 +8310,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -8325,7 +8324,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
@@ -8340,7 +8339,7 @@ packages:
       '@rc-component/portal': 1.1.2(react-dom@18.2.0)(react@18.2.0)
       '@rc-component/trigger': 1.18.3(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -8355,9 +8354,9 @@ packages:
       '@babel/runtime': 7.24.5
       '@rc-component/portal': 1.1.2(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
@@ -8456,7 +8455,7 @@ packages:
       chalk: 4.1.2
       execa: 5.1.1
       fast-glob: 3.3.2
-      fast-xml-parser: 4.3.6
+      fast-xml-parser: 4.4.0
       logkitty: 0.7.1
     transitivePeerDependencies:
       - encoding
@@ -8468,7 +8467,7 @@ packages:
       chalk: 4.1.2
       execa: 5.1.1
       fast-glob: 3.3.2
-      fast-xml-parser: 4.3.6
+      fast-xml-parser: 4.4.0
       ora: 5.4.1
     transitivePeerDependencies:
       - encoding
@@ -8723,14 +8722,32 @@ packages:
       nullthrows: 1.1.1
       react: 18.2.0
       react-native: 0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5)(@types/react@18.2.46)(react@18.2.0)
+    dev: true
+
+  /@react-native/virtualized-lists@0.74.83(react-native@0.74.1)(react@18.2.0):
+    resolution: {integrity: sha512-rmaLeE34rj7py4FxTod7iMTC7BAsm+HrGA8WxYmEJeyTV7WSaxAkosKoYBz8038mOiwnG9VwA/7FrB6bEQvn1A==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@types/react': ^18.2.6
+      react: '*'
+      react-native: '*'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      invariant: 2.2.4
+      nullthrows: 1.1.1
+      react: 18.2.0
+      react-native: 0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5)(react@18.2.0)
+    optional: true
 
   /@remix-run/router@1.14.1:
     resolution: {integrity: sha512-Qg4DMQsfPNAs88rb2xkdk03N3bjK4jgX5fR24eHCTR9q6PrhZQZ4UJBPzCHJkIpTRN1UKxx2DzjZmnC+7Lj0Ow==}
     engines: {node: '>=14.0.0'}
     dev: true
 
-  /@rjsf/antd@5.18.3(@ant-design/icons@5.3.7)(@rjsf/core@5.18.3)(@rjsf/utils@5.18.3)(antd@5.12.8)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-eKuxNGXBTwq5hqdqSpbkEUxzX5224y42EHJgiP0Eu3xDj74ktAjBHvBHfX4Fa76Gjwfv+Dkj/N1wg1+G+iBlZw==}
+  /@rjsf/antd@5.18.4(@ant-design/icons@5.3.7)(@rjsf/core@5.18.4)(@rjsf/utils@5.18.4)(antd@5.12.8)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-dLP6+R7uvl97vrbRpoYLs2VR14lHwe6NrtDEO0mVDrXGakDNicnnaAHiM6xOUR4LRUuAaG29DvTWoBxImcEYRQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@ant-design/icons': ^4.0.0 || ^5.0.0
@@ -8741,8 +8758,8 @@ packages:
       react: ^16.14.0 || >=17
     dependencies:
       '@ant-design/icons': 5.3.7(react-dom@18.2.0)(react@18.2.0)
-      '@rjsf/core': 5.18.3(@rjsf/utils@5.18.3)(react@18.2.0)
-      '@rjsf/utils': 5.18.3(react@18.2.0)
+      '@rjsf/core': 5.18.4(@rjsf/utils@5.18.4)(react@18.2.0)
+      '@rjsf/utils': 5.18.4(react@18.2.0)
       antd: 5.12.8(date-fns@3.6.0)(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
       dayjs: 1.11.11
@@ -8754,14 +8771,14 @@ packages:
       - react-dom
     dev: true
 
-  /@rjsf/core@5.18.3(@rjsf/utils@5.18.3)(react@18.2.0):
-    resolution: {integrity: sha512-HVqqoVzcjYX1BUCqHm7iUjBoVx1UDud1KP6bJ5drtOOvHChfKEbMUt2hWJcuXIlmNPuw2lRxETtcuRbEM2wsRA==}
+  /@rjsf/core@5.18.4(@rjsf/utils@5.18.4)(react@18.2.0):
+    resolution: {integrity: sha512-OUPC+l44X1geYT9sSsmQC2pakvFWCQB+5Iy/ITfLMJq3MIjJn0gakCwYHXMMBGUAKM1SSMIyKWyCazt3kY9fhg==}
     engines: {node: '>=14'}
     peerDependencies:
       '@rjsf/utils': ^5.18.x
       react: ^16.14.0 || >=17
     dependencies:
-      '@rjsf/utils': 5.18.3(react@18.2.0)
+      '@rjsf/utils': 5.18.4(react@18.2.0)
       lodash: 4.17.21
       lodash-es: 4.17.21
       markdown-to-jsx: 7.4.7(react@18.2.0)
@@ -8770,8 +8787,8 @@ packages:
       react: 18.2.0
     dev: true
 
-  /@rjsf/utils@5.18.3(react@18.2.0):
-    resolution: {integrity: sha512-0TzjAKAlqXSCneVnHhcL3gAr4DlIPgwzkFdNEI4A+LFjLFlECPah2o3RhEgvqJnUXFviDGF1dqhkxa/Pr59ajw==}
+  /@rjsf/utils@5.18.4(react@18.2.0):
+    resolution: {integrity: sha512-svLMk5aW6q3JQRYVTJradFc9tLeQ1vX5/k6fPwxf+08eweqPbINq7aokLBSStUNr8FfYgThTl8IfehLoVP2dvw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: ^16.14.0 || >=17
@@ -8784,13 +8801,13 @@ packages:
       react-is: 18.3.1
     dev: true
 
-  /@rjsf/validator-ajv8@5.18.3(@rjsf/utils@5.18.3):
-    resolution: {integrity: sha512-geEVuNuYulHVUBnnkLCS7QZRvAuD1clOjuUbwNjFzSpnYHVO0+mvvi4uHTia/eSvRyDy4vdkxu320uPe4TsgeQ==}
+  /@rjsf/validator-ajv8@5.18.4(@rjsf/utils@5.18.4):
+    resolution: {integrity: sha512-D0bUtruWbUmXG8z3VBbCky0Cx65rmcdG/QypB9ri5YTSNTQIxuq28StBpZUZn84CO/oMOtociGy4afW1aj5C0g==}
     engines: {node: '>=14'}
     peerDependencies:
       '@rjsf/utils': ^5.18.x
     dependencies:
-      '@rjsf/utils': 5.18.3(react@18.2.0)
+      '@rjsf/utils': 5.18.4(react@18.2.0)
       ajv: 8.13.0
       ajv-formats: 2.1.1(ajv@8.13.0)
       lodash: 4.17.21
@@ -8864,8 +8881,8 @@ packages:
       rollup: 2.79.1
     dev: true
 
-  /@rushstack/eslint-patch@1.10.2:
-    resolution: {integrity: sha512-hw437iINopmQuxWPSUEvqE56NCPsiU8N4AYtfHmJFckclktzK9YQJieD3XkDCDH4OjL+C7zgPUh73R/nrcHrqw==}
+  /@rushstack/eslint-patch@1.10.3:
+    resolution: {integrity: sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==}
     dev: true
 
   /@rushstack/node-core-library@3.63.0(@types/node@20.10.6):
@@ -9009,7 +9026,7 @@ packages:
       lodash-es: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 8.0.1
-      npm: 10.7.0
+      npm: 10.8.0
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.2
@@ -9057,8 +9074,8 @@ packages:
       '@sigstore/protobuf-specs': 0.2.1
     dev: true
 
-  /@sigstore/bundle@2.3.1:
-    resolution: {integrity: sha512-eqV17lO3EIFqCWK3969Rz+J8MYrRZKw9IBHpSo6DEcEX2c+uzDFOgHE9f2MnyDpfs48LFO4hXmk9KhQ74JzU1g==}
+  /@sigstore/bundle@2.3.2:
+    resolution: {integrity: sha512-wueKWDk70QixNLB363yHc2D2ItTgYiMTdPwK8D9dKQMR3ZQ0c35IxP5xnwQ8cNLoCgCRcHf14kE+CLIvNX1zmA==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@sigstore/protobuf-specs': 0.3.2
@@ -9090,11 +9107,11 @@ packages:
       - supports-color
     dev: true
 
-  /@sigstore/sign@2.3.1:
-    resolution: {integrity: sha512-YZ71wKIOweC8ViUeZXboz0iPLqMkskxuoeN/D1CEpAyZvEepbX9oRMIoO6a/DxUqO1VEaqmcmmqzSiqtOsvSmw==}
+  /@sigstore/sign@2.3.2:
+    resolution: {integrity: sha512-5Vz5dPVuunIIvC5vBb0APwo7qKA4G9yM48kPWJT+OEERs40md5GoUR1yedwpekWZ4m0Hhw44m6zU+ObsON+iDA==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      '@sigstore/bundle': 2.3.1
+      '@sigstore/bundle': 2.3.2
       '@sigstore/core': 1.1.0
       '@sigstore/protobuf-specs': 0.3.2
       make-fetch-happen: 13.0.1
@@ -9114,8 +9131,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sigstore/tuf@2.3.3:
-    resolution: {integrity: sha512-agQhHNkIddXFslkudjV88vTXiAMEyUtso3at6ZHUNJ1agZb7Ze6VW/PddHipdWBu1t+8OWLW5X5yZOPiOnaWJQ==}
+  /@sigstore/tuf@2.3.4:
+    resolution: {integrity: sha512-44vtsveTPUpqhm9NCrbU8CWLe3Vck2HO1PNLw7RIajbB7xhtn5RBPm1VNSCMwqGYHhDsBJG8gDF0q4lgydsJvw==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@sigstore/protobuf-specs': 0.3.2
@@ -9124,11 +9141,11 @@ packages:
       - supports-color
     dev: true
 
-  /@sigstore/verify@1.2.0:
-    resolution: {integrity: sha512-hQF60nc9yab+Csi4AyoAmilGNfpXT+EXdBgFkP9OgPwIBPwyqVf7JAWPtmqrrrneTmAT6ojv7OlH1f6Ix5BG4Q==}
+  /@sigstore/verify@1.2.1:
+    resolution: {integrity: sha512-8iKx79/F73DKbGfRf7+t4dqrc0bRr0thdPrxAtCKWRm/F0tG71i6O1rvlnScncJLLBZHn3h8M3c1BSUAb9yu8g==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      '@sigstore/bundle': 2.3.1
+      '@sigstore/bundle': 2.3.2
       '@sigstore/core': 1.1.0
       '@sigstore/protobuf-specs': 0.3.2
     dev: true
@@ -9767,7 +9784,7 @@ packages:
       '@storybook/preview-api': 7.6.19
       '@storybook/theming': 7.6.19(react-dom@18.2.0)(react@18.2.0)
       '@storybook/types': 7.6.19
-      '@types/lodash': 4.17.1
+      '@types/lodash': 4.17.4
       color-convert: 2.0.1
       dequal: 2.0.3
       lodash: 4.17.21
@@ -9829,7 +9846,7 @@ packages:
       '@storybook/node-logger': 7.6.19
       '@storybook/preview': 7.6.19
       '@storybook/preview-api': 7.6.19
-      '@swc/core': 1.5.6
+      '@swc/core': 1.5.7
       '@types/node': 18.19.33
       '@types/semver': 7.5.8
       babel-loader: 9.1.3(@babel/core@7.24.5)(webpack@5.88.2)
@@ -9838,7 +9855,7 @@ packages:
       cjs-module-lexer: 1.3.1
       constants-browserify: 1.0.0
       css-loader: 6.11.0(webpack@5.88.2)
-      es-module-lexer: 1.5.2
+      es-module-lexer: 1.5.3
       express: 4.19.2(supports-color@6.1.0)
       fork-ts-checker-webpack-plugin: 8.0.0(typescript@5.1.6)(webpack@5.88.2)
       fs-extra: 11.2.0
@@ -9848,14 +9865,14 @@ packages:
       process: 0.11.10
       semver: 7.6.2
       style-loader: 3.3.4(webpack@5.88.2)
-      swc-loader: 0.2.6(@swc/core@1.5.6)(webpack@5.88.2)
-      terser-webpack-plugin: 5.3.10(@swc/core@1.5.6)(esbuild@0.18.20)(webpack@5.88.2)
+      swc-loader: 0.2.6(@swc/core@1.5.7)(webpack@5.88.2)
+      terser-webpack-plugin: 5.3.10(@swc/core@1.5.7)(esbuild@0.18.20)(webpack@5.88.2)
       ts-dedent: 2.2.0
       typescript: 5.1.6
       url: 0.11.3
       util: 0.12.5
       util-deprecate: 1.0.2
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
       webpack-dev-middleware: 6.1.3(webpack@5.88.2)
       webpack-hot-middleware: 2.26.1
       webpack-virtual-modules: 0.5.0
@@ -10441,7 +10458,7 @@ packages:
       '@types/babel__core': 7.20.5
       '@types/semver': 7.5.8
       pnp-webpack-plugin: 1.7.0(typescript@5.1.6)
-      react-scripts: 5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@swc/core@1.5.6)(esbuild@0.18.20)(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.2)(typescript@5.1.6)
+      react-scripts: 5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@swc/core@1.5.7)(esbuild@0.18.20)(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.2)(typescript@5.1.6)
       semver: 7.6.2
     transitivePeerDependencies:
       - '@types/webpack'
@@ -10456,7 +10473,7 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@storybook/preset-react-webpack@7.6.19(@babel/core@7.24.5)(@swc/core@1.5.6)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
+  /@storybook/preset-react-webpack@7.6.19(@babel/core@7.24.5)(@swc/core@1.5.7)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
     resolution: {integrity: sha512-WvfDE4upH7jmisx5XOn4E07p9Fm8YJn4Aywc9vYM1jqQ8A1lEH8VSC1KR6dPfdmGr94jRscQkD6fjs9sUNTdrw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -10490,7 +10507,7 @@ packages:
       react-refresh: 0.14.2
       semver: 7.6.2
       typescript: 5.1.6
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     transitivePeerDependencies:
       - '@swc/core'
       - '@types/webpack'
@@ -10543,7 +10560,7 @@ packages:
       react-docgen-typescript: 2.2.2(typescript@5.1.6)
       tslib: 2.6.2
       typescript: 5.1.6
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10558,7 +10575,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /@storybook/react-webpack5@7.6.19(@babel/core@7.24.5)(@swc/core@1.5.6)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
+  /@storybook/react-webpack5@7.6.19(@babel/core@7.24.5)(@swc/core@1.5.7)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
     resolution: {integrity: sha512-QPnDv5eimvgc0zBIvc1H49iBUfZhs0hhrs9eO0+rAC6sIo5BiDcX9nQJZEuamRPVuLjqoRByj6vUpqGI25zASg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -10574,7 +10591,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.5
       '@storybook/builder-webpack5': 7.6.19(esbuild@0.18.20)(typescript@5.1.6)
-      '@storybook/preset-react-webpack': 7.6.19(@babel/core@7.24.5)(@swc/core@1.5.6)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
+      '@storybook/preset-react-webpack': 7.6.19(@babel/core@7.24.5)(@swc/core@1.5.7)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
       '@storybook/react': 7.6.19(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
       '@types/node': 18.19.33
       react: 18.2.0
@@ -10765,6 +10782,7 @@ packages:
 
   /@storybook/testing-library@0.2.2:
     resolution: {integrity: sha512-L8sXFJUHmrlyU2BsWWZGuAjv39Jl1uAqUHdxmN42JY15M4+XCMjGlArdCCjDe1wpTSW6USYISA9axjZojgtvnw==}
+    deprecated: In Storybook 8, this package functionality has been integrated to a new package called @storybook/test, which uses Vitest APIs for an improved experience. When upgrading to Storybook 8 with 'npx storybook@latest upgrade', you will get prompted and will get an automigration for the new package. Please migrate when you can.
     dependencies:
       '@testing-library/dom': 9.3.4
       '@testing-library/user-event': 14.5.2(@testing-library/dom@9.3.4)
@@ -11106,8 +11124,8 @@ packages:
       - supports-color
     dev: true
 
-  /@swc/core-darwin-arm64@1.5.6:
-    resolution: {integrity: sha512-U4szqU03cvZOTXug5o+HQbbg16ZGwANtr7LELjw4hmWBqSTcbBVXgocyBMm1L4ngFIsqJc33D+urnnaae/NfMg==}
+  /@swc/core-darwin-arm64@1.5.7:
+    resolution: {integrity: sha512-bZLVHPTpH3h6yhwVl395k0Mtx8v6CGhq5r4KQdAoPbADU974Mauz1b6ViHAJ74O0IVE5vyy7tD3OpkQxL/vMDQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
@@ -11115,8 +11133,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-darwin-x64@1.5.6:
-    resolution: {integrity: sha512-k4jymBHYkbfGw8DT4bLtVsAckpp2dblyImQHRPScpvDyS4jUo4174mgy/dEnFmZVLTbuZAY876zBQyH+eJ3p4A==}
+  /@swc/core-darwin-x64@1.5.7:
+    resolution: {integrity: sha512-RpUyu2GsviwTc2qVajPL0l8nf2vKj5wzO3WkLSHAHEJbiUZk83NJrZd1RVbEknIMO7+Uyjh54hEh8R26jSByaw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
@@ -11124,8 +11142,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm-gnueabihf@1.5.6:
-    resolution: {integrity: sha512-ijwGEdP18vS8YmvHUIfKYDFQ5mQ1GtCxhJp+IcJlrBJE+/eSJVvEVF5WwXFQ+Hzj6tr/OOub8UcRNUaQokjh3A==}
+  /@swc/core-linux-arm-gnueabihf@1.5.7:
+    resolution: {integrity: sha512-cTZWTnCXLABOuvWiv6nQQM0hP6ZWEkzdgDvztgHI/+u/MvtzJBN5lBQ2lue/9sSFYLMqzqff5EHKlFtrJCA9dQ==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
@@ -11133,8 +11151,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-gnu@1.5.6:
-    resolution: {integrity: sha512-6YD942jsDm64wgGNew4Q1Yh8CRI4QKWTqjzCkvlZCGV6aOw5B663WDSnUEKIoN4egeLcvSiqYYGlKMfbkkfNMw==}
+  /@swc/core-linux-arm64-gnu@1.5.7:
+    resolution: {integrity: sha512-hoeTJFBiE/IJP30Be7djWF8Q5KVgkbDtjySmvYLg9P94bHg9TJPSQoC72tXx/oXOgXvElDe/GMybru0UxhKx4g==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -11142,8 +11160,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-musl@1.5.6:
-    resolution: {integrity: sha512-Jntdd/HQAgRSQFUpmXjiU00BG08Yl5G1pgYDBXG2mPfkndGGgapRT8JPsnzfQujh9nOdWMIQDnCGU+mB4NY2Dg==}
+  /@swc/core-linux-arm64-musl@1.5.7:
+    resolution: {integrity: sha512-+NDhK+IFTiVK1/o7EXdCeF2hEzCiaRSrb9zD7X2Z7inwWlxAntcSuzZW7Y6BRqGQH89KA91qYgwbnjgTQ22PiQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -11151,8 +11169,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-gnu@1.5.6:
-    resolution: {integrity: sha512-cdaAyAZJvYCx0u9uadUVe4VVJOEC6GeVO5uTGo/vybCsKFn2Z8WVjGVTeHbxdp7pH2II9MRTySIv1eCCq70SOQ==}
+  /@swc/core-linux-x64-gnu@1.5.7:
+    resolution: {integrity: sha512-25GXpJmeFxKB+7pbY7YQLhWWjkYlR+kHz5I3j9WRl3Lp4v4UD67OGXwPe+DIcHqcouA1fhLhsgHJWtsaNOMBNg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -11160,8 +11178,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-musl@1.5.6:
-    resolution: {integrity: sha512-mGIs4d6/Hv/5EbP2d+2YNmIj9U5U/6CiPZsTyahQcEl+vJjNsmwDJoLex36LhxoGIUmVbbgk6cHj5DoHWNl0bQ==}
+  /@swc/core-linux-x64-musl@1.5.7:
+    resolution: {integrity: sha512-0VN9Y5EAPBESmSPPsCJzplZHV26akC0sIgd3Hc/7S/1GkSMoeuVL+V9vt+F/cCuzr4VidzSkqftdP3qEIsXSpg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -11169,8 +11187,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-arm64-msvc@1.5.6:
-    resolution: {integrity: sha512-ViiS2pUXy/J9RZWJXQJMuDKid0lqH9fu2piFi3IHnMWyyWPla5qHYijkeODwrdBsjc30NAHjV6jfka5SZduqiw==}
+  /@swc/core-win32-arm64-msvc@1.5.7:
+    resolution: {integrity: sha512-RtoNnstBwy5VloNCvmvYNApkTmuCe4sNcoYWpmY7C1+bPR+6SOo8im1G6/FpNem8AR5fcZCmXHWQ+EUmRWJyuA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
@@ -11178,8 +11196,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-ia32-msvc@1.5.6:
-    resolution: {integrity: sha512-Ju5z65Nda8oYjt2Z4CGbuBLxM+98TcewLogutI69rBo5S70xunadp4ANIHcr9fZlTu/IX9mxZmUpOaHtb+/TfA==}
+  /@swc/core-win32-ia32-msvc@1.5.7:
+    resolution: {integrity: sha512-Xm0TfvcmmspvQg1s4+USL3x8D+YPAfX2JHygvxAnCJ0EHun8cm2zvfNBcsTlnwYb0ybFWXXY129aq1wgFC9TpQ==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
@@ -11187,8 +11205,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-x64-msvc@1.5.6:
-    resolution: {integrity: sha512-pkqJsdrgxyFYJA+g9a3zbl+AoxYoBtv+Rji1Fw4+Sq7CsSMWboayWNN5fKRiyi3u3nG8kxqyGi51PsKy2G4Vpg==}
+  /@swc/core-win32-x64-msvc@1.5.7:
+    resolution: {integrity: sha512-tp43WfJLCsKLQKBmjmY/0vv1slVywR5Q4qKjF5OIY8QijaEW7/8VwPyUyVoJZEnDgv9jKtUTG5PzqtIYPZGnyg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
@@ -11196,8 +11214,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core@1.5.6:
-    resolution: {integrity: sha512-0UC0NkgWoqd9fkHPn1NTkTsQucW8iaA1fujK2OLGp40Zg5Vr7nrwBlqruX9expVMggS4rv/3vZSAGzRm80VQ/g==}
+  /@swc/core@1.5.7:
+    resolution: {integrity: sha512-U4qJRBefIJNJDRCCiVtkfa/hpiZ7w0R6kASea+/KLp+vkus3zcLSB8Ub8SvKgTIxjWpwsKcZlPf5nrv4ls46SQ==}
     engines: {node: '>=10'}
     requiresBuild: true
     peerDependencies:
@@ -11207,26 +11225,26 @@ packages:
         optional: true
     dependencies:
       '@swc/counter': 0.1.3
-      '@swc/types': 0.1.6
+      '@swc/types': 0.1.7
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.5.6
-      '@swc/core-darwin-x64': 1.5.6
-      '@swc/core-linux-arm-gnueabihf': 1.5.6
-      '@swc/core-linux-arm64-gnu': 1.5.6
-      '@swc/core-linux-arm64-musl': 1.5.6
-      '@swc/core-linux-x64-gnu': 1.5.6
-      '@swc/core-linux-x64-musl': 1.5.6
-      '@swc/core-win32-arm64-msvc': 1.5.6
-      '@swc/core-win32-ia32-msvc': 1.5.6
-      '@swc/core-win32-x64-msvc': 1.5.6
+      '@swc/core-darwin-arm64': 1.5.7
+      '@swc/core-darwin-x64': 1.5.7
+      '@swc/core-linux-arm-gnueabihf': 1.5.7
+      '@swc/core-linux-arm64-gnu': 1.5.7
+      '@swc/core-linux-arm64-musl': 1.5.7
+      '@swc/core-linux-x64-gnu': 1.5.7
+      '@swc/core-linux-x64-musl': 1.5.7
+      '@swc/core-win32-arm64-msvc': 1.5.7
+      '@swc/core-win32-ia32-msvc': 1.5.7
+      '@swc/core-win32-x64-msvc': 1.5.7
     dev: true
 
   /@swc/counter@0.1.3:
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
     dev: true
 
-  /@swc/types@0.1.6:
-    resolution: {integrity: sha512-/JLo/l2JsT/LRd80C3HfbmVpxOAJ11FO2RCEslFrgzLltoP9j8XIbsyDcfCt2WWyX+CM96rBoNM+IToAkFOugg==}
+  /@swc/types@0.1.7:
+    resolution: {integrity: sha512-scHWahbHF0eyj3JsxG9CFJgFdFNaVQCNAimBlT6PzS3n/HptxqREjsm4OH6AN3lYcffZYSPxXW8ua2BEHp0lJQ==}
     dependencies:
       '@swc/counter': 0.1.3
     dev: true
@@ -11430,12 +11448,12 @@ packages:
   /@transmute/did-context@0.7.0-unstable.82:
     resolution: {integrity: sha512-tAVzbkGvXNfCip12imBzicDSjVbRpiBT9Xz7FmxyEXq155CYnCandEL/o95tvUMmu8m89ggHtH4x5mQBR8GIJw==}
 
-  /@transmute/did-key-bls12381@0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/did-key-bls12381@0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-ExSADdvDxrYeCx8RsKXZGMjJmHrOJ9vyYtziZUaJ97K/sn1uVlvIOTp9V4xHa6j9cT1wTzSqJ325euwGFeK+WQ==}
     engines: {node: '>=14'}
     dependencies:
       '@transmute/bls12381-key-pair': 0.7.0-unstable.81
-      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - domexception
       - encoding
@@ -11466,12 +11484,12 @@ packages:
       cbor: 5.2.0
     dev: false
 
-  /@transmute/did-key-common@0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/did-key-common@0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-Iryh/HcGIvmTtWFTRaG/JEgbUsqI5OqKqkR2676yQWK4ajLMsyNattz5n0ZfFQk/4U7Ee6pJvvKRduFDAqqV0Q==}
     engines: {node: '>=14'}
     dependencies:
       '@did-core/data-model': 0.1.1-unstable.15
-      '@did-core/did-ld-json': 0.1.1-unstable.15(expo@51.0.5)(react-native@0.74.1)
+      '@did-core/did-ld-json': 0.1.1-unstable.15(expo@51.0.8)(react-native@0.74.1)
       '@transmute/did-context': 0.6.1-unstable.37
       '@transmute/ld-key-pair': 0.6.1-unstable.37
       '@transmute/security-context': 0.6.1-unstable.37
@@ -11496,11 +11514,11 @@ packages:
       canonicalize: 1.0.8
     dev: false
 
-  /@transmute/did-key-ed25519@0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/did-key-ed25519@0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-9QdXl58DjwqBuOJBx6DtvaNW2bZLmVBxMSq2En4RAQcGIz1GGulyEQ1NB7PLIAgnam3LIFxiK6RiQGQTfJmmJg==}
     engines: {node: '>=14'}
     dependencies:
-      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/ed25519-key-pair': 0.6.1-unstable.37
     transitivePeerDependencies:
       - domexception
@@ -11510,11 +11528,11 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@transmute/did-key-secp256k1@0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/did-key-secp256k1@0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-C/Gyu2U3NQZ9Gxu4WVwUk8h0ERbY9Z4Kjk0P49p3IQFrWK19XmVXjA+b1RiqffhYzWJ6fH5TPYIt2LW5MRQmUA==}
     engines: {node: '>=14'}
     dependencies:
-      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/secp256k1-key-pair': 0.7.0-unstable.82
     transitivePeerDependencies:
       - domexception
@@ -11529,11 +11547,11 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@transmute/did-key-web-crypto@0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/did-key-web-crypto@0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-eq0AEjQi2lFFC1K3Hl/3nTXoLKy07McEjkXGI2xz/GO9tJNvxEZPbmC/VuwLYf61Q/mgB09qNdY8ApEIpWk3mQ==}
     engines: {node: '>=14'}
     dependencies:
-      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/web-crypto-key-pair': 0.7.0-unstable.82
     transitivePeerDependencies:
       - domexception
@@ -11557,11 +11575,11 @@ packages:
       canonicalize: 1.0.8
     dev: false
 
-  /@transmute/did-key-x25519@0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/did-key-x25519@0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-Jm5UxwI9EhlfVQ9D0Clj9RlMvhOi8nqAgQG30KMzjFMVGfWqIPwQNZFvmL+XsQ7g3dfTo5iQwXBY0de/f+RoMA==}
     engines: {node: '>=14'}
     dependencies:
-      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-common': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/x25519-key-pair': 0.7.0-unstable.82
     transitivePeerDependencies:
       - domexception
@@ -11571,16 +11589,16 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@transmute/did-key.js@0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/did-key.js@0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-qvuZ7SdmEb0ZqRYs9R/NMUgTUwZDsUysW+EhtQ/P/dQw0CvRmvfWOmtz1UWGT6yZKl/IDba0KtKn/Yz0GaClsQ==}
     engines: {node: '>=14'}
     dependencies:
-      '@transmute/did-key-bls12381': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/did-key-secp256k1': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-bls12381': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/did-key-secp256k1': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/did-key-test-vectors': 0.3.0-unstable.10
-      '@transmute/did-key-web-crypto': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/did-key-x25519': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-web-crypto': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/did-key-x25519': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       base64url: 3.0.1
     transitivePeerDependencies:
       - domexception
@@ -11627,14 +11645,14 @@ packages:
       '@transmute/x25519-key-pair': 0.7.0-unstable.82
     dev: false
 
-  /@transmute/ed25519-signature-2018@0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/ed25519-signature-2018@0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-WvD+x7EpeacXEtOTmOQltSNdevwHJZ3Y53Yj8SZJ0CGzVKyqj3/F7wGvagbEUWxALe2rXrby5F6FPVS7mJwgCg==}
     engines: {node: '>=16'}
     dependencies:
       '@transmute/credentials-context': 0.7.0-unstable.82
       '@transmute/ed25519-key-pair': 0.7.0-unstable.2
       '@transmute/jose-ld': 0.7.0-unstable.82
-      '@transmute/jsonld': 0.0.4(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/jsonld': 0.0.4(expo@51.0.8)(react-native@0.74.1)
       '@transmute/security-context': 0.7.0-unstable.82
     transitivePeerDependencies:
       - domexception
@@ -11655,13 +11673,13 @@ packages:
       web-streams-polyfill: 3.3.3
     dev: false
 
-  /@transmute/json-web-signature@0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/json-web-signature@0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-Snku9yg5sN10zkSy678n7VnHZgd7s0EQmjRylhW+mg4n9aL1SXPSbmRx6wUXfdXe1RGY1oNfDd7R5WegZVg9ew==}
     engines: {node: '>=16'}
     dependencies:
       '@transmute/ed25519-key-pair': 0.7.0-unstable.82
       '@transmute/jose-ld': 0.7.0-unstable.82
-      '@transmute/jsonld': 0.0.4(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/jsonld': 0.0.4(expo@51.0.8)(react-native@0.74.1)
       '@transmute/secp256k1-key-pair': 0.7.0-unstable.82
       '@transmute/security-context': 0.7.0-unstable.82
       '@transmute/web-crypto-key-pair': 0.7.0-unstable.82
@@ -11672,11 +11690,11 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@transmute/jsonld-schema@0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/jsonld-schema@0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-WrPwYXLNvb5o8xg9yTb8PBiMvX5tyLOGPYDOuX7mlr/2HmAJyyplxprJEKCixmb817O06keU5jrkCwiYaAcyfg==}
     engines: {node: '>=16'}
     dependencies:
-      '@transmute/jsonld': 0.0.4(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/jsonld': 0.0.4(expo@51.0.8)(react-native@0.74.1)
       ajv: 8.13.0
       genson-js: 0.0.5
     transitivePeerDependencies:
@@ -11686,12 +11704,12 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@transmute/jsonld@0.0.4(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/jsonld@0.0.4(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-6G++8imMYW9dtTvATPHNfrV3lLeX5E57DOmlgIDfO0A0yjkBCss1usB80NfONS26ynyveb8vTbp4nQDW9Ki4Rw==}
     engines: {node: '>=16'}
     dependencies:
       json-pointer: 0.6.2
-      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
+      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - domexception
       - expo
@@ -11708,12 +11726,12 @@ packages:
     engines: {node: '>=16'}
     dev: false
 
-  /@transmute/linked-data-proof@0.2.1-unstable.10(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/linked-data-proof@0.2.1-unstable.10(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-RvIIpv+Pzd6/h+3e5fUB2J39gabyEQMNcp7+8Ze1+EH5eh+w+b3r846SjzxJx18SdzijR/xIRZWF3dteMU3CTg==}
     engines: {node: '>=10'}
     dependencies:
       '@transmute/security-context': 0.0.4-unstable.2
-      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
+      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
       serialize-error: 7.0.1
     transitivePeerDependencies:
       - domexception
@@ -11722,11 +11740,11 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@transmute/linked-data-proof@0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/linked-data-proof@0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-ZJHxRmPhTmWOg71wz6Thg6o338J7h8SNZ+5m0ja5f9O22603zBcLbq7WcpHcs4GzXazPBTlsow2hl7C8u2JmJg==}
     engines: {node: '>=16'}
     dependencies:
-      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       serialize-error: 7.0.1
     transitivePeerDependencies:
       - domexception
@@ -11769,7 +11787,7 @@ packages:
   /@transmute/security-context@0.7.0-unstable.82:
     resolution: {integrity: sha512-Hih4A3iatK8daSREtuF/y9hGnrLZGRTfBYBUlUeaGEoCrcnhNcZrn8EQmW2dqj/7VZ2W5ResxQLPljA9pVJt5w==}
 
-  /@transmute/vc-status-rl-2020@0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/vc-status-rl-2020@0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-Dk8B3WY1jh85ADh27CB5qmTKZSk8i79kGjTkpgyHMaV6B31eBGOG4ui/BH96nIJwTxAVM68kZAt1y7jmx7bqhg==}
     engines: {node: '>=16'}
     dependencies:
@@ -11777,10 +11795,10 @@ packages:
       '@transmute/credentials-context': 0.7.0-unstable.82
       '@transmute/did-context': 0.7.0-unstable.82
       '@transmute/did-key-ed25519': 0.2.1-unstable.42
-      '@transmute/linked-data-proof': 0.2.1-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/linked-data-proof': 0.2.1-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@transmute/revocation-list-context': 0.7.0-unstable.82
       '@transmute/security-context': 0.7.0-unstable.82
-      '@transmute/vc.js': 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/vc.js': 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - domexception
       - encoding
@@ -11789,15 +11807,15 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /@transmute/vc.js@0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1):
+  /@transmute/vc.js@0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-P/QGvnybAhtz4jQiX38bPXquTE+mjxbXsE60cDn41TdijiUNK8Ge3c1jmLKFMqrwDRaK1aVqJWBxtMYvQ+0QMw==}
     engines: {node: '>=16'}
     dependencies:
-      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/json-web-signature': 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/jsonld': 0.0.4(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/jsonld-schema': 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/linked-data-proof': 0.7.0-unstable.82(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/json-web-signature': 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/jsonld': 0.0.4(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/jsonld-schema': 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/linked-data-proof': 0.7.0-unstable.82(expo@51.0.8)(react-native@0.74.1)
       moment: 2.30.1
     transitivePeerDependencies:
       - domexception
@@ -11831,14 +11849,6 @@ packages:
       '@stablelib/x25519': 1.0.3
       '@transmute/ld-key-pair': 0.7.0-unstable.82
     dev: false
-
-  /@trufflesuite/bigint-buffer@1.1.10:
-    resolution: {integrity: sha512-pYIQC5EcMmID74t26GCC67946mgTJFiLXOT/BYozgrd4UEY2JHEGLhWi9cMiQCt5BSqFEvKkCHNnoj82SRjiEw==}
-    engines: {node: '>= 14.0.0'}
-    requiresBuild: true
-    dependencies:
-      node-gyp-build: 4.4.0
-    dev: true
 
   /@trufflesuite/uws-js-unofficial@20.30.0-unofficial.0:
     resolution: {integrity: sha512-r5X0aOQcuT6pLwTRLD+mPnAM/nlKtvIK4Z+My++A8tTOR0qTjNRx8UB8jzRj3D+p9PMAp5LnpCUUGmz7/TppwA==}
@@ -12233,8 +12243,8 @@ packages:
       '@types/node': 20.10.6
     dev: true
 
-  /@types/lodash@4.17.1:
-    resolution: {integrity: sha512-X+2qazGS3jxLAIz5JDXDzglAF3KpijdhFxlf/V1+hEsOUc+HnWi81L/uv/EvGuV90WY+7mPGFCUDGfQC3Gj95Q==}
+  /@types/lodash@4.17.4:
+    resolution: {integrity: sha512-wYCP26ZLxaT3R39kiN2+HcJ4kTd3U1waI/cY7ivWYqFP6pW3ZNpvi6Wd6PHZx7T/t8z0vlkXMg3QYLa7DZ/IJQ==}
     dev: true
 
   /@types/lru-cache@5.1.1:
@@ -13096,7 +13106,7 @@ packages:
       - ts-node
       - typeorm-aurora-data-api-driver
 
-  /@veramo/did-comm@5.5.3(expo@51.0.5)(react-native@0.74.1):
+  /@veramo/did-comm@5.5.3(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-nB0C7X2MPmP5gLgcm2vUrceux/68jSsiZmS1E4rX9NjoSJFKenEKvEoS4Sb7kMj1hpv8oEbkN8ooC1LOFgcbiw==}
     dependencies:
       '@ethersproject/signing-key': 5.7.0
@@ -13112,7 +13122,7 @@ packages:
       debug: 4.3.4(supports-color@6.1.0)
       did-jwt: 7.4.7
       did-resolver: 4.1.0
-      isomorphic-webcrypto: 2.3.8(expo@51.0.5)(react-native@0.74.1)
+      isomorphic-webcrypto: 2.3.8(expo@51.0.8)(react-native@0.74.1)
       uuid: 9.0.1
     transitivePeerDependencies:
       - encoding
@@ -13182,13 +13192,13 @@ packages:
       - supports-color
     dev: false
 
-  /@veramo/did-provider-key@5.5.3(expo@51.0.5)(react-native@0.74.1):
+  /@veramo/did-provider-key@5.5.3(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-qhgcxRNBS0U8eBeYK65JkZR5ngzY1WDIlx3ZqWqOKiR7rgiNkNty7Cvv+z9EKOi6dp06EmgRGKdsWLCRkQXskQ==}
     dependencies:
       '@ethersproject/signing-key': 5.7.0
-      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/did-key-secp256k1': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
-      '@transmute/did-key-x25519': 0.3.0-unstable.10(expo@51.0.5)(react-native@0.74.1)
+      '@transmute/did-key-ed25519': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/did-key-secp256k1': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
+      '@transmute/did-key-x25519': 0.3.0-unstable.10(expo@51.0.8)(react-native@0.74.1)
       '@veramo/core-types': 5.5.3
       '@veramo/did-manager': 5.5.3
       '@veramo/utils': 5.5.3
@@ -14510,7 +14520,7 @@ packages:
       rc-input-number: 8.4.0(react-dom@18.2.0)(react@18.2.0)
       rc-mentions: 2.9.1(react-dom@18.2.0)(react@18.2.0)
       rc-menu: 9.12.4(react-dom@18.2.0)(react@18.2.0)
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
       rc-notification: 5.3.0(react-dom@18.2.0)(react@18.2.0)
       rc-pagination: 4.0.4(react-dom@18.2.0)(react@18.2.0)
       rc-picker: 3.14.7(date-fns@3.6.0)(dayjs@1.11.11)(react-dom@18.2.0)(react@18.2.0)
@@ -14529,7 +14539,7 @@ packages:
       rc-tree: 5.8.7(react-dom@18.2.0)(react@18.2.0)
       rc-tree-select: 5.15.0(react-dom@18.2.0)(react@18.2.0)
       rc-upload: 4.5.2(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       scroll-into-view-if-needed: 3.1.0
@@ -14585,7 +14595,7 @@ packages:
 
   /are-we-there-yet@1.1.7:
     resolution: {integrity: sha512-nxwy40TuMiUGqMyRHgCSWZ9FM4VAoRP4xUYSTv5ImRog+h9yISPbVH7H8fASCIzYn9wlEv4zvFL7uKDMCFQm3g==}
-    requiresBuild: true
+    deprecated: This package is no longer supported.
     dependencies:
       delegates: 1.0.0
       readable-stream: 2.3.8
@@ -14594,6 +14604,7 @@ packages:
   /are-we-there-yet@2.0.0:
     resolution: {integrity: sha512-Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
     requiresBuild: true
     dependencies:
       delegates: 1.0.0
@@ -14604,6 +14615,7 @@ packages:
   /are-we-there-yet@3.0.1:
     resolution: {integrity: sha512-QZW4EDmGwlYur0Yyf/b2uGucHQMa8aFUP7eu9ddR73vvhFyt4V0Vl3QHPcTNJ8l6qYOBdxgXdnBXQrHilfRQBg==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
     dependencies:
       delegates: 1.0.0
       readable-stream: 3.6.2
@@ -15031,7 +15043,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001618
+      caniuse-lite: 1.0.30001620
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -15044,7 +15056,7 @@ packages:
     hasBin: true
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001618
+      caniuse-lite: 1.0.30001620
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       picocolors: 0.2.1
@@ -15062,8 +15074,8 @@ packages:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
     dev: true
 
-  /aws4@1.12.0:
-    resolution: {integrity: sha512-NmWvPnx0F1SfrQbYwOi7OeaNGokp9XhzNioJ/CSBs8Qa4vxug81mhJEAVZwxXuBmYB5KDRfMq/F3RR0BIU7sWg==}
+  /aws4@1.13.0:
+    resolution: {integrity: sha512-3AungXC4I8kKsS9PuS4JH2nc+0bVY/mjgrephHTIi8fpEeGsTHBUJeosp0Wc1myYMElmD0B3Oc4XL/HVJ4PV2g==}
     dev: true
 
   /axe-core@4.7.0:
@@ -15087,8 +15099,8 @@ packages:
       - debug
     dev: false
 
-  /axios@1.6.8(debug@4.3.4):
-    resolution: {integrity: sha512-v/ZHtJDU39mDpyBoFVkETcd/uNdxrWRrg3bKpOKzXFA6Bvqopts6ALSMU3y6ijYxbw2B+wPrIv46egTzJXCLGQ==}
+  /axios@1.7.1(debug@4.3.4):
+    resolution: {integrity: sha512-+LV37nQcd1EpFalkXksWNBiA17NZ5m5/WspmHGmZmdx1qBOg/VNq/c4eRJiA9VQQHBOs+N0ZhhdU10h2TyNK7Q==}
     dependencies:
       follow-redirects: 1.15.6(debug@4.3.4)
       form-data: 4.0.0
@@ -15250,7 +15262,7 @@ packages:
       '@babel/core': 7.24.5
       find-cache-dir: 4.0.0
       schema-utils: 4.2.0
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     dev: true
 
   /babel-plugin-add-react-displayname@0.0.5:
@@ -16107,17 +16119,17 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001618
-      electron-to-chromium: 1.4.767
+      caniuse-lite: 1.0.30001620
+      electron-to-chromium: 1.4.776
       node-releases: 2.0.14
-      update-browserslist-db: 1.0.15(browserslist@4.23.0)
+      update-browserslist-db: 1.0.16(browserslist@4.23.0)
 
   /browserslist@4.7.0:
     resolution: {integrity: sha512-9rGNDtnj+HaahxiVV38Gn8n8Lr8REKsel68v1sPFfIGEK6uSXTY3h9acgiT1dZVtOOUtifo/Dn8daDQ5dUgVsA==}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001618
-      electron-to-chromium: 1.4.767
+      caniuse-lite: 1.0.30001620
+      electron-to-chromium: 1.4.776
       node-releases: 1.1.77
     dev: true
 
@@ -16384,7 +16396,6 @@ packages:
       ssri: 10.0.6
       tar: 6.1.11
       unique-filename: 3.0.0
-    dev: true
 
   /cache-base@1.0.1:
     resolution: {integrity: sha512-AKcdTnFSWATd5/GCPRxr2ChwIJ85CeyrEyjRHlKxQ56d4XJMGym0uAiKn0xbLOGOl3+yRpOTi484dVCEc5AUzQ==}
@@ -16432,7 +16443,7 @@ packages:
     resolution: {integrity: sha512-OqeheDucGKifjQRx524URgV4z4NaKjocGhygTptDea+DLROre4ZEecA4KXDq+P7qlGCohYVNOh3qr+y5XH5Ftg==}
     dependencies:
       '@devexpress/error-stack-parser': 2.0.6
-      '@types/lodash': 4.17.1
+      '@types/lodash': 4.17.4
       callsite: 1.0.0
       chalk: 2.4.2
       highlight-es: 1.0.3
@@ -16496,13 +16507,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001618
+      caniuse-lite: 1.0.30001620
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
 
-  /caniuse-lite@1.0.30001618:
-    resolution: {integrity: sha512-p407+D1tIkDvsEAPS22lJxLQQaG8OTBEqo0KhzfABGk0TU4juBNDSfH0hyAp/HRyx+M8L17z/ltyhxh27FTfQg==}
+  /caniuse-lite@1.0.30001620:
+    resolution: {integrity: sha512-WJvYsOjd1/BYUY6SNGUosK9DUidBPDTnOARHp3fSmFO1ekdxaY6nKRttEVrfMmYi80ctS0kz1wiWmm14fVc3ew==}
 
   /canonicalize@1.0.8:
     resolution: {integrity: sha512-0CNTVCLZggSh7bc5VkX5WWPWO+cyZbNd07IHIsSXLia/eAq+r836hgk+8BKoEh7949Mda87VUOitx5OddVj64A==}
@@ -16970,7 +16981,6 @@ packages:
   /code-point-at@1.1.0:
     resolution: {integrity: sha512-RpAVKQA5T63xEj6/giIbUEtZwJ4UFIc3ZtvEkiaUERylqe8xb5IvqcgOurZLahv93CLKfxcw5YI+DZcUBRyLXA==}
     engines: {node: '>=0.10.0'}
-    requiresBuild: true
     dev: true
 
   /coffeescript@2.7.0:
@@ -17464,6 +17474,7 @@ packages:
 
   /copy-concurrently@1.0.5:
     resolution: {integrity: sha512-f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==}
+    deprecated: This package is no longer supported.
     dependencies:
       aproba: 1.2.0
       fs-write-stream-atomic: 1.0.10
@@ -17873,7 +17884,7 @@ packages:
       schema-utils: 4.2.0
       serialize-javascript: 6.0.2
       source-map: 0.6.1
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     dev: true
 
   /css-minimizer-webpack-plugin@3.4.1(webpack@5.88.2):
@@ -19006,8 +19017,8 @@ packages:
       jake: 10.9.1
     dev: true
 
-  /electron-to-chromium@1.4.767:
-    resolution: {integrity: sha512-nzzHfmQqBss7CE3apQHkHjXW77+8w3ubGCIoEijKCJebPufREaFETgGXWTkh32t259F3Kcq+R8MZdFdOJROgYw==}
+  /electron-to-chromium@1.4.776:
+    resolution: {integrity: sha512-s694bi3+gUzlliqxjPHpa9NRTlhzTgB34aan+pVKZmOTGy2xoZXl+8E1B8i5p5rtev3PKMK/H4asgNejC+YHNg==}
 
   /elegant-spinner@1.0.1:
     resolution: {integrity: sha512-B+ZM+RXvRqQaAmkMlO/oSe5nMUOaUnyfGYCEHoR8wrXsZR2mA0XVibsxV1bvTwxdRWah1PkQqso2EzhILGHtEQ==}
@@ -19341,8 +19352,8 @@ packages:
       safe-array-concat: 1.1.2
     dev: true
 
-  /es-module-lexer@1.5.2:
-    resolution: {integrity: sha512-l60ETUTmLqbVbVHv1J4/qj+M8nq7AwMzEcg3kmJDt9dCNrTk+yHcYFf/Kw75pMDwd9mPcIGCG5LcS20SxYRzFA==}
+  /es-module-lexer@1.5.3:
+    resolution: {integrity: sha512-i1gCgmR9dCl6Vil6UKPI/trA69s08g/syhiDK9TG0Nf1RJjjFI+AzoWW7sPufzkgYAn861skuCwJa0pIIHYxvg==}
     dev: true
 
   /es-object-atoms@1.0.0:
@@ -19532,7 +19543,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.5
       '@babel/eslint-parser': 7.24.5(@babel/core@7.24.5)(eslint@8.57.0)
-      '@rushstack/eslint-patch': 1.10.2
+      '@rushstack/eslint-patch': 1.10.3
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.0)(typescript@5.1.6)
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.0)(typescript@5.1.6)
       babel-preset-react-app: 10.0.1
@@ -20434,54 +20445,54 @@ packages:
       jest-util: 29.7.0
     dev: true
 
-  /expo-asset@10.0.6(expo@51.0.5):
+  /expo-asset@10.0.6(expo@51.0.8):
     resolution: {integrity: sha512-waP73/ccn/HZNNcGM4/s3X3icKjSSbEQ9mwc6tX34oYNg+XE5WdwOuZ9wgVVFrU7wZMitq22lQXd2/O0db8bxg==}
     peerDependencies:
       expo: '*'
     dependencies:
       '@react-native/assets-registry': 0.74.83
-      expo: 51.0.5(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
-      expo-constants: 16.0.1(expo@51.0.5)
+      expo: 51.0.8(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
+      expo-constants: 16.0.1(expo@51.0.8)
       invariant: 2.2.4
       md5-file: 3.2.3
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  /expo-constants@16.0.1(expo@51.0.5):
+  /expo-constants@16.0.1(expo@51.0.8):
     resolution: {integrity: sha512-s6aTHtglp926EsugWtxN7KnpSsE9FCEjb7CgEjQQ78Gpu4btj4wB+IXot2tlqNwqv+x7xFe5veoPGfJDGF/kVg==}
     peerDependencies:
       expo: '*'
     dependencies:
-      '@expo/config': 9.0.1
-      expo: 51.0.5(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
+      '@expo/config': 9.0.2
+      expo: 51.0.8(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
     transitivePeerDependencies:
       - supports-color
     optional: true
 
-  /expo-file-system@17.0.1(expo@51.0.5):
+  /expo-file-system@17.0.1(expo@51.0.8):
     resolution: {integrity: sha512-dYpnZJqTGj6HCYJyXAgpFkQWsiCH3HY1ek2cFZVHFoEc5tLz9gmdEgTF6nFHurvmvfmXqxi7a5CXyVm0aFYJBw==}
     peerDependencies:
       expo: '*'
     dependencies:
-      expo: 51.0.5(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
+      expo: 51.0.8(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
     optional: true
 
-  /expo-font@12.0.5(expo@51.0.5):
+  /expo-font@12.0.5(expo@51.0.8):
     resolution: {integrity: sha512-h/VkN4jlHYDJ6T6pPgOYTVoDEfBY0CTKQe4pxnPDGQiE6H+DFdDgk+qWVABGpRMH0+zXoHB+AEi3OoQjXIynFA==}
     peerDependencies:
       expo: '*'
     dependencies:
-      expo: 51.0.5(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
+      expo: 51.0.8(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
       fontfaceobserver: 2.3.0
     optional: true
 
-  /expo-keep-awake@13.0.1(expo@51.0.5):
-    resolution: {integrity: sha512-Kqv8Bf1f5Jp7YMUgTTyKR9GatgHJuAcC8vVWDEkgVhB3O7L3pgBy5MMSMUhkTmRRV6L8TZe/rDmjiBoVS/soFA==}
+  /expo-keep-awake@13.0.2(expo@51.0.8):
+    resolution: {integrity: sha512-kKiwkVg/bY0AJ5q1Pxnm/GvpeB6hbNJhcFsoOWDh2NlpibhCLaHL826KHUM+WsnJRbVRxJ+K9vbPRHEMvFpVyw==}
     peerDependencies:
       expo: '*'
     dependencies:
-      expo: 51.0.5(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
+      expo: 51.0.8(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
     optional: true
 
   /expo-modules-autolinking@0.0.3:
@@ -20507,45 +20518,44 @@ packages:
       fs-extra: 9.1.0
     optional: true
 
-  /expo-modules-core@1.12.10:
-    resolution: {integrity: sha512-aS4imfr7fuUtcx+j/CHuG6ohNSThyCzGRh1kKjQTDcO0/CqDO2cSFnxf7n2vpiRFgyoMFJvFFtW/zIzVXiC2Tw==}
+  /expo-modules-core@1.12.11:
+    resolution: {integrity: sha512-CF5G6hZo/6uIUz6tj4dNRlvE5L4lakYukXPqz5ZHQ+6fLk1NQVZbRdpHjMkxO/QSBQcKUzG/ngeytpoJus7poQ==}
     dependencies:
       invariant: 2.2.4
     optional: true
 
-  /expo-random@14.0.1(expo@51.0.5):
+  /expo-random@14.0.1(expo@51.0.8):
     resolution: {integrity: sha512-gX2mtR9o+WelX21YizXUCD/y+a4ZL+RDthDmFkHxaYbdzjSYTn8u/igoje/l3WEO+/RYspmqUFa8w/ckNbt6Vg==}
     requiresBuild: true
     peerDependencies:
       expo: '*'
     dependencies:
       base64-js: 1.5.1
-      expo: 51.0.5(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
+      expo: 51.0.8(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
     optional: true
 
-  /expo@51.0.5(@babel/core@7.24.5)(@babel/preset-env@7.24.5):
-    resolution: {integrity: sha512-i+AfkfToYPFCobX0NUT9PmDtsB3L19vhCB/XUE1Ph6FVrBF6GipkHzTADuRLMaVg5u/2sm/fdzGzBcMjXSHqmA==}
+  /expo@51.0.8(@babel/core@7.24.5)(@babel/preset-env@7.24.5):
+    resolution: {integrity: sha512-bdTOiMb1f3PChtuqEZ9czUm2gMTmS0r1+H+Pkm2O3PsuLnOgxfIBzL6S37+J4cUocLBaENrmx9SOGKpzhBqXpg==}
     hasBin: true
     dependencies:
       '@babel/runtime': 7.24.5
-      '@expo/cli': 0.18.11(expo-modules-autolinking@1.11.1)
-      '@expo/config': 9.0.1
+      '@expo/cli': 0.18.13(expo-modules-autolinking@1.11.1)
+      '@expo/config': 9.0.2
       '@expo/config-plugins': 8.0.4
-      '@expo/metro-config': 0.18.3
+      '@expo/metro-config': 0.18.4
       '@expo/vector-icons': 14.0.2
       babel-preset-expo: 11.0.6(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
-      expo-asset: 10.0.6(expo@51.0.5)
-      expo-file-system: 17.0.1(expo@51.0.5)
-      expo-font: 12.0.5(expo@51.0.5)
-      expo-keep-awake: 13.0.1(expo@51.0.5)
+      expo-asset: 10.0.6(expo@51.0.8)
+      expo-file-system: 17.0.1(expo@51.0.8)
+      expo-font: 12.0.5(expo@51.0.8)
+      expo-keep-awake: 13.0.2(expo@51.0.8)
       expo-modules-autolinking: 1.11.1
-      expo-modules-core: 1.12.10
+      expo-modules-core: 1.12.11
       fbemitter: 3.0.0
       whatwg-url-without-unicode: 8.0.0-3
     transitivePeerDependencies:
       - '@babel/core'
       - '@babel/preset-env'
-      - bluebird
       - bufferutil
       - encoding
       - supports-color
@@ -20764,8 +20774,8 @@ packages:
     resolution: {integrity: sha512-VhXlQgj9ioXCqGstD37E/HBeqEGV/qOD/kmbVG8h5xKBYvM1L3lR1Zn4555cQ8GkYbJa8aJSipLPndE1k6zK2w==}
     dev: false
 
-  /fast-xml-parser@4.3.6:
-    resolution: {integrity: sha512-M2SovcRxD4+vC493Uc2GZVcZaj66CCJhWurC4viynVSTvrpErCShNcDz1lAho6n9REQKvL/ll4A4/fw6Y9z8nw==}
+  /fast-xml-parser@4.4.0:
+    resolution: {integrity: sha512-kLY3jFlwIYwBNDojclKsNAC12sfD6NwW74QB2CoNGPvtVxjliYehVunB3HYyNi+n4Tt1dAcgwYvmKF/Z18flqg==}
     hasBin: true
     dependencies:
       strnum: 1.0.5
@@ -21334,7 +21344,7 @@ packages:
       semver: 7.6.2
       tapable: 2.2.1
       typescript: 5.1.6
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     dev: true
 
   /form-data@2.3.3:
@@ -21371,8 +21381,8 @@ packages:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
 
-  /fp-ts@2.16.5:
-    resolution: {integrity: sha512-N8T8PwMSeTKKtkm9lkj/zSTAnPC/aJIIrQhnHxxkL0KLsRCNUPANksJOlMXxcKKCo7H1ORP3No9EMD+fP0tsdA==}
+  /fp-ts@2.16.6:
+    resolution: {integrity: sha512-v7w209VPj4L6pPn/ftFRJu31Oa8QagwcVw7BZmLCUWU4AQoc954rX9ogSIahDf67Pg+GjPbkW/Kn9XWnlWJG0g==}
     dev: true
 
   /fraction.js@4.3.7:
@@ -21476,7 +21486,6 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       minipass: 7.1.1
-    dev: true
 
   /fs-monkey@1.0.6:
     resolution: {integrity: sha512-b1FMfwetIKymC0eioW7mTywihSQE4oLzQn1dB6rZB5fx/3NpNEdAWeCSMB+60/AeT0TCXsxzAlcYVEFCTAksWg==}
@@ -21484,6 +21493,7 @@ packages:
 
   /fs-write-stream-atomic@1.0.10:
     resolution: {integrity: sha512-gehEzmPn2nAwr39eay+x3X34Ra+M2QlVUTLhkXPjWdeO8RF9kszk116avgBJM3ZyNHgHXBNx+VmPaFC36k0PzA==}
+    deprecated: This package is no longer supported.
     dependencies:
       graceful-fs: 4.2.11
       iferr: 0.1.5
@@ -21544,7 +21554,6 @@ packages:
     resolution: {integrity: sha512-7gsVVDpO9AhrFyDMWWl7SpMsPpqGcnAzjxz3k32LheIPNd64p2XsY9GYRdhWmKuryb60W1iaWPZWDkFKlbRWHA==}
     hasBin: true
     dependencies:
-      '@trufflesuite/bigint-buffer': 1.1.10
       '@trufflesuite/uws-js-unofficial': 20.30.0-unofficial.0
       '@types/bn.js': 5.1.5
       '@types/lru-cache': 5.1.1
@@ -21553,9 +21562,6 @@ packages:
       abstract-leveldown: 7.2.0
       async-eventemitter: 0.2.4
       emittery: 0.10.0
-      keccak: 3.0.2
-      leveldown: 6.1.0
-      secp256k1: 4.0.3
     optionalDependencies:
       bufferutil: 4.0.5
       utf-8-validate: 5.0.7
@@ -21568,7 +21574,7 @@ packages:
 
   /gauge@2.7.4:
     resolution: {integrity: sha512-14x4kjc6lkD3ltw589k0NrPD6cCNTD6CWoVUNpB85+DrtONoZn+Rug6xZU5RvSC4+TZPxA5AnBibQYAvZn41Hg==}
-    requiresBuild: true
+    deprecated: This package is no longer supported.
     dependencies:
       aproba: 1.2.0
       console-control-strings: 1.1.0
@@ -21583,6 +21589,7 @@ packages:
   /gauge@3.0.2:
     resolution: {integrity: sha512-+5J6MS/5XksCuXq++uFRsnUd7Ovu1XenbeuIuNRJxYWjgQbPuFhT14lAvsWfqfAmnwluf1OwMjz39HjfLPci0Q==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
     requiresBuild: true
     dependencies:
       aproba: 2.0.0
@@ -21600,6 +21607,7 @@ packages:
   /gauge@4.0.4:
     resolution: {integrity: sha512-f9m+BEN5jkg6a0fZjleidjN51VE1X+mPFQ2DJ0uv1V39oCLCbsGe6yjbBnp7eK7z/+GAon99a3nHuqbuuthyPg==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
     dependencies:
       aproba: 2.0.0
       color-support: 1.1.3
@@ -23078,7 +23086,7 @@ packages:
     resolution: {integrity: sha512-7NXolsK4CAS5+xvdj5OMMbI962hU/wvwoxk+LWR9Ek9bVtyuuYScDN6eS0rUm6TxApFpw7CX1o4uJzcd4AyD3Q==}
     dev: true
 
-  /inquirer-autocomplete-prompt@3.0.1(inquirer@9.2.21):
+  /inquirer-autocomplete-prompt@3.0.1(inquirer@9.2.22):
     resolution: {integrity: sha512-DQBXwX2fVQPVUzu4v4lGgtNgyjcX2+rTyphb2MeSOQh3xUayKAfHAF4y0KgsMi06m6ZiR3xIOdzMZMfQgX2m9w==}
     engines: {node: '>=16'}
     peerDependencies:
@@ -23086,7 +23094,7 @@ packages:
     dependencies:
       ansi-escapes: 6.2.1
       figures: 5.0.0
-      inquirer: 9.2.21
+      inquirer: 9.2.22
       picocolors: 1.0.1
       run-async: 2.4.1
       rxjs: 7.8.1
@@ -23150,11 +23158,11 @@ packages:
       wrap-ansi: 6.2.0
     dev: true
 
-  /inquirer@9.2.21:
-    resolution: {integrity: sha512-c/dwDruM1FtzeISV+xMHm+JZTmhpmgWPEZI2bU3+Fwu5MhbAX0zMHHxj5warNfttE5NUID3aijrFUpDc2yBvcA==}
+  /inquirer@9.2.22:
+    resolution: {integrity: sha512-SqLLa/Oe5rZUagTR9z+Zd6izyatHglbmbvVofo1KzuVB54YHleWzeHNLoR7FOICGOeQSqeLh1cordb3MzhGcEw==}
     engines: {node: '>=18'}
     dependencies:
-      '@inquirer/figures': 1.0.1
+      '@inquirer/figures': 1.0.2
       '@ljharb/through': 2.3.13
       ansi-escapes: 4.3.2
       chalk: 5.3.0
@@ -23208,7 +23216,7 @@ packages:
     dependencies:
       loose-envify: 1.4.0
 
-  /io-ts-types@0.5.19(fp-ts@2.16.5)(io-ts@2.2.21)(monocle-ts@2.3.13)(newtype-ts@0.3.5):
+  /io-ts-types@0.5.19(fp-ts@2.16.6)(io-ts@2.2.21)(monocle-ts@2.3.13)(newtype-ts@0.3.5):
     resolution: {integrity: sha512-kQOYYDZG5vKre+INIDZbLeDJe+oM+4zLpUkjXyTMyUfoCpjJNyi29ZLkuEAwcPufaYo3yu/BsemZtbdD+NtRfQ==}
     peerDependencies:
       fp-ts: ^2.0.0
@@ -23216,18 +23224,18 @@ packages:
       monocle-ts: ^2.0.0
       newtype-ts: ^0.3.2
     dependencies:
-      fp-ts: 2.16.5
-      io-ts: 2.2.21(fp-ts@2.16.5)
-      monocle-ts: 2.3.13(fp-ts@2.16.5)
-      newtype-ts: 0.3.5(fp-ts@2.16.5)(monocle-ts@2.3.13)
+      fp-ts: 2.16.6
+      io-ts: 2.2.21(fp-ts@2.16.6)
+      monocle-ts: 2.3.13(fp-ts@2.16.6)
+      newtype-ts: 0.3.5(fp-ts@2.16.6)(monocle-ts@2.3.13)
     dev: true
 
-  /io-ts@2.2.21(fp-ts@2.16.5):
+  /io-ts@2.2.21(fp-ts@2.16.6):
     resolution: {integrity: sha512-zz2Z69v9ZIC3mMLYWIeoUcwWD6f+O7yP92FMVVaXEOSZH1jnVBmET/urd/uoarD1WGBY4rCj8TAyMPzsGNzMFQ==}
     peerDependencies:
       fp-ts: ^2.5.0
     dependencies:
-      fp-ts: 2.16.5
+      fp-ts: 2.16.6
     dev: true
 
   /ip-address@9.0.5:
@@ -23475,7 +23483,6 @@ packages:
   /is-fullwidth-code-point@1.0.0:
     resolution: {integrity: sha512-1pqUqRjkhPJ9miNq9SwMfdvi6lBJcd6eFxvfaivQhaH3SgisfiuudvFntdKOmxuee/77l+FPjKrQjWvmPjWrRw==}
     engines: {node: '>=0.10.0'}
-    requiresBuild: true
     dependencies:
       number-is-nan: 1.0.1
     dev: true
@@ -23885,7 +23892,7 @@ packages:
       - encoding
     dev: true
 
-  /isomorphic-webcrypto@2.3.8(expo@51.0.5)(react-native@0.74.1):
+  /isomorphic-webcrypto@2.3.8(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-XddQSI0WYlSCjxtm1AI8kWQOulf7hAN3k3DclF1sxDJZqOe0pcsOt675zvWW91cZH9hYs3nlA3Ev8QK5i80SxQ==}
     dependencies:
       '@peculiar/webcrypto': 1.4.6
@@ -23898,7 +23905,7 @@ packages:
     optionalDependencies:
       '@unimodules/core': 7.1.2
       '@unimodules/react-native-adapter': 6.3.9
-      expo-random: 14.0.1(expo@51.0.5)
+      expo-random: 14.0.1(expo@51.0.8)
       react-native-securerandom: 0.1.1(react-native@0.74.1)
     transitivePeerDependencies:
       - expo
@@ -24062,7 +24069,7 @@ packages:
     hasBin: true
     dependencies:
       async: 3.2.5
-      chalk: 4.1.2
+      chalk: 4.1.0
       filelist: 1.0.4
       minimatch: 3.1.2
     dev: true
@@ -25940,11 +25947,11 @@ packages:
     optionalDependencies:
       graceful-fs: 4.2.11
 
-  /jsonld-checker@0.1.8(expo@51.0.5)(react-native@0.74.1):
+  /jsonld-checker@0.1.8(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-jclmnPRrm5SEpaIV6IiSTJxplRAqIWHduQLsUfrYpZM41Ng48m1RN2/aUyHze/ynfO0D2UhlJBt8SdObsH5GBw==}
     engines: {node: '>=10'}
     dependencies:
-      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
+      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - domexception
@@ -25954,12 +25961,12 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  /jsonld-signatures@11.2.1(expo@51.0.5)(react-native@0.74.1):
+  /jsonld-signatures@11.2.1(expo@51.0.8)(react-native@0.74.1):
     resolution: {integrity: sha512-RNaHTEeRrX0jWeidPCwxMq/E/Ze94zFyEZz/v267ObbCHQlXhPO7GtkY6N5PSHQfQhZPXa8NlMBg5LiDF4dNbA==}
     engines: {node: '>=14'}
     dependencies:
       '@digitalbazaar/security-context': 1.0.1
-      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
+      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
       serialize-error: 8.1.0
     transitivePeerDependencies:
       - domexception
@@ -26049,16 +26056,6 @@ packages:
     dependencies:
       jwa: 1.4.1
       safe-buffer: 5.2.1
-    dev: true
-
-  /keccak@3.0.2:
-    resolution: {integrity: sha512-PyKKjkH53wDMLGrvmRGSNWgmSxZOUqbnXwKL9tmgbFYA1iAYqW21kfR7mZXV0MlESiefxQQE9X9fTa3X+2MPDQ==}
-    engines: {node: '>=10.0.0'}
-    requiresBuild: true
-    dependencies:
-      node-addon-api: 2.0.2
-      node-gyp-build: 4.8.1
-      readable-stream: 3.6.2
     dev: true
 
   /keyv@4.5.4:
@@ -26315,16 +26312,6 @@ packages:
     dependencies:
       buffer: 6.0.3
       module-error: 1.0.2
-    dev: true
-
-  /leveldown@6.1.0:
-    resolution: {integrity: sha512-8C7oJDT44JXxh04aSSsfcMI8YiaGRhOFI9/pMEL7nWJLVsWajDPTRxsSHTM2WcTVY5nXM+SuRHzPPi0GbnDX+w==}
-    engines: {node: '>=10.12.0'}
-    requiresBuild: true
-    dependencies:
-      abstract-leveldown: 7.2.0
-      napi-macros: 2.0.0
-      node-gyp-build: 4.8.1
     dev: true
 
   /leven@3.1.0:
@@ -27679,7 +27666,6 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       minipass: 7.1.1
-    dev: true
 
   /minipass-fetch@1.4.1:
     resolution: {integrity: sha512-CGH1eblLq26Y15+Azk7ey4xh0J/XfJfrCox5LDJiKqI2Q2iwOLOKrlmIaODiSQS8d18jalF6y2K2ePUm0CmShw==}
@@ -27819,16 +27805,17 @@ packages:
   /moment@2.30.1:
     resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
 
-  /monocle-ts@2.3.13(fp-ts@2.16.5):
+  /monocle-ts@2.3.13(fp-ts@2.16.6):
     resolution: {integrity: sha512-D5Ygd3oulEoAm3KuGO0eeJIrhFf1jlQIoEVV2DYsZUMz42j4tGxgct97Aq68+F8w4w4geEnwFa8HayTS/7lpKQ==}
     peerDependencies:
       fp-ts: ^2.5.0
     dependencies:
-      fp-ts: 2.16.5
+      fp-ts: 2.16.6
     dev: true
 
   /move-concurrently@1.0.1:
     resolution: {integrity: sha512-hdrFxZOycD/g6A6SoI2bB5NA/5NEqD0569+S47WZhPvm46sD50ZHdYaFmnua5lndde9rCHGjmfK7Z8BuCt/PcQ==}
+    deprecated: This package is no longer supported.
     dependencies:
       aproba: 1.2.0
       copy-concurrently: 1.0.5
@@ -28008,10 +27995,6 @@ packages:
   /napi-build-utils@1.0.2:
     resolution: {integrity: sha512-ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==}
 
-  /napi-macros@2.0.0:
-    resolution: {integrity: sha512-A0xLykHtARfueITVDernsAWdtIMbOJgKgcluwENp3AlsKN/PloyO10HtmoqnFAQAcxPkgZN7wdfPfEd0zNGxbg==}
-    dev: true
-
   /natural-compare-lite@1.4.0:
     resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
     dev: true
@@ -28064,14 +28047,14 @@ packages:
     resolution: {integrity: sha512-SrQrok4CATudVzBS7coSz26QRSmlK9TzzoFbeKfcPBUFPjcQM9Rqvr/DlJkOrwI/0KcgvMub1n1g5Jt9EgRn4A==}
     optional: true
 
-  /newtype-ts@0.3.5(fp-ts@2.16.5)(monocle-ts@2.3.13):
+  /newtype-ts@0.3.5(fp-ts@2.16.6)(monocle-ts@2.3.13):
     resolution: {integrity: sha512-v83UEQMlVR75yf1OUdoSFssjitxzjZlqBAjiGQ4WJaML8Jdc68LJ+BaSAXUmKY4bNzp7hygkKLYTsDi14PxI2g==}
     peerDependencies:
       fp-ts: ^2.0.0
       monocle-ts: ^2.0.0
     dependencies:
-      fp-ts: 2.16.5
-      monocle-ts: 2.3.13(fp-ts@2.16.5)
+      fp-ts: 2.16.6
+      monocle-ts: 2.3.13(fp-ts@2.16.6)
     dev: true
 
   /next-tick@1.1.0:
@@ -28117,6 +28100,7 @@ packages:
 
   /node-addon-api@2.0.2:
     resolution: {integrity: sha512-Ntyt4AIXyaLIuMHF6IOoTakB3K+RWxwtsHNRxllEoA6vPwP9o4866g6YWDLUdnucilZhmkxiHwHr11gAENw+QA==}
+    dev: false
 
   /node-addon-api@7.1.0:
     resolution: {integrity: sha512-mNcltoe1R8o7STTegSOHdnJNN7s5EUvhoS7ShnTHDyOSd+8H+UdWODq6qSv67PjC8Zc5JRT8+oLAMCr0SIXw7g==}
@@ -28196,11 +28180,6 @@ packages:
   /node-forge@1.3.1:
     resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
     engines: {node: '>= 6.13.0'}
-
-  /node-gyp-build@4.4.0:
-    resolution: {integrity: sha512-amJnQCcgtRVw9SvoebO3BKGESClrfXGCUTX9hSn1OuGQTQBOZmVd0Z0OlecpuRksKvbsUqALE8jls/ErClAPuQ==}
-    hasBin: true
-    dev: true
 
   /node-gyp-build@4.8.1:
     resolution: {integrity: sha512-OSs33Z9yWr148JZcbZd5WiAXhh/n9z8TxQcdMhIOlpN9AhWpLfvVFO73+m77bBABQMaY9XSvIa+qk0jlI7Gcaw==}
@@ -28548,8 +28527,8 @@ packages:
       path-key: 4.0.0
     dev: true
 
-  /npm@10.7.0:
-    resolution: {integrity: sha512-FXylyYSXNjgXx3l82BT8RSQvCoGIQ3h8YdRFGKNvo3Pv/bKscK4pdWkx/onwTpHDqGw+oeLf4Rxln9WVyxAxlQ==}
+  /npm@10.8.0:
+    resolution: {integrity: sha512-wh93uRczgp7HDnPMiLXcCkv2hagdJS0zJ9KT/31d0FoXP02+qgN2AOwpaW85fxRWkinl2rELfPw+CjBXW48/jQ==}
     engines: {node: ^18.17.0 || >=20.5.0}
     hasBin: true
     dev: true
@@ -28625,6 +28604,7 @@ packages:
 
   /npmlog@4.1.2:
     resolution: {integrity: sha512-2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==}
+    deprecated: This package is no longer supported.
     dependencies:
       are-we-there-yet: 1.1.7
       console-control-strings: 1.1.0
@@ -28634,6 +28614,7 @@ packages:
 
   /npmlog@5.0.1:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
+    deprecated: This package is no longer supported.
     requiresBuild: true
     dependencies:
       are-we-there-yet: 2.0.0
@@ -28646,6 +28627,7 @@ packages:
   /npmlog@6.0.2:
     resolution: {integrity: sha512-/vBvz5Jfr9dT/aFWd0FIRf+T/Q2WBsLENygUaFUqstqsycmZAP/t5BvFJTK0viFmSUxiUKTUplWy5vt+rvKIxg==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
+    deprecated: This package is no longer supported.
     dependencies:
       are-we-there-yet: 3.0.1
       console-control-strings: 1.1.0
@@ -28674,7 +28656,6 @@ packages:
   /number-is-nan@1.0.1:
     resolution: {integrity: sha512-4jbtZXNAsfZbAHiiqjLPBiCl16dES1zI4Hpzzxw61Tk+loF+sBDBKx1ICKKKwIqQ7M0mFn1TmkN7euSncWgHiQ==}
     engines: {node: '>=0.10.0'}
-    requiresBuild: true
     dev: true
 
   /nwsapi@2.2.10:
@@ -28698,7 +28679,7 @@ packages:
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.46
       '@zkochan/js-yaml': 0.0.6
-      axios: 1.6.8(debug@4.3.4)
+      axios: 1.7.1(debug@4.3.4)
       chalk: 4.1.0
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
@@ -29044,7 +29025,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       bl: 4.1.0
-      chalk: 4.1.2
+      chalk: 4.1.0
       cli-cursor: 3.1.0
       cli-spinners: 2.6.1
       is-interactive: 1.0.0
@@ -29301,7 +29282,7 @@ packages:
       promise-retry: 2.0.1
       read-package-json: 7.0.1
       read-package-json-fast: 3.0.2
-      sigstore: 2.3.0
+      sigstore: 2.3.1
       ssri: 10.0.6
       tar: 6.1.11
     transitivePeerDependencies:
@@ -31401,7 +31382,7 @@ packages:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
       dom-align: 1.12.4
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       resize-observer-polyfill: 1.5.1
@@ -31418,7 +31399,7 @@ packages:
       classnames: 2.5.1
       rc-select: 14.10.0(react-dom@18.2.0)(react@18.2.0)
       rc-tree: 5.8.7(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31431,7 +31412,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31444,8 +31425,8 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31459,8 +31440,8 @@ packages:
       '@babel/runtime': 7.24.5
       '@rc-component/portal': 1.1.2(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31474,8 +31455,8 @@ packages:
       '@babel/runtime': 7.24.5
       '@rc-component/portal': 1.1.2(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31489,7 +31470,7 @@ packages:
       '@babel/runtime': 7.24.5
       '@rc-component/trigger': 1.18.3(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31503,7 +31484,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       async-validator: 4.2.5
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31517,7 +31498,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       async-validator: 4.2.5
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31532,8 +31513,8 @@ packages:
       '@rc-component/portal': 1.1.2(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
       rc-dialog: 9.3.4(react-dom@18.2.0)(react@18.2.0)
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31548,7 +31529,7 @@ packages:
       '@rc-component/mini-decimal': 1.1.0
       classnames: 2.5.1
       rc-input: 1.3.11(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31561,7 +31542,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31578,7 +31559,7 @@ packages:
       rc-input: 1.3.11(react-dom@18.2.0)(react@18.2.0)
       rc-menu: 9.12.4(react-dom@18.2.0)(react@18.2.0)
       rc-textarea: 1.5.3(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31592,22 +31573,22 @@ packages:
       '@babel/runtime': 7.24.5
       '@rc-component/trigger': 1.18.3(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
       rc-overflow: 1.3.2(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
 
-  /rc-motion@2.9.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-XIU2+xLkdIr1/h6ohPZXyPBMvOmuyFZQ/T0xnawz+Rh+gh4FINcnZmMT5UTIj6hgI0VLDjTaPeRd+smJeSPqiQ==}
+  /rc-motion@2.9.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-QD4bUqByjVQs7PhUT1d4bNxvtTcK9ETwtg7psbDfo6TmYalH/1hhjj4r2hbhW7g5OOEqYHhfwfj4noIvuOVRtQ==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
@@ -31620,8 +31601,8 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31635,7 +31616,7 @@ packages:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
@@ -31647,7 +31628,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31665,7 +31646,7 @@ packages:
       dayjs: 1.11.11
       moment: 2.30.1
       rc-trigger: 5.3.4(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       shallowequal: 1.1.0
@@ -31696,7 +31677,7 @@ packages:
       classnames: 2.5.1
       date-fns: 3.6.0
       dayjs: 1.11.11
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31728,7 +31709,7 @@ packages:
       dayjs: 1.11.11
       rc-overflow: 1.3.2(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -31741,7 +31722,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31755,7 +31736,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31768,7 +31749,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       resize-observer-polyfill: 1.5.1
@@ -31782,7 +31763,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       resize-observer-polyfill: 1.5.1
@@ -31795,8 +31776,8 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31811,10 +31792,10 @@ packages:
       '@babel/runtime': 7.24.5
       '@rc-component/trigger': 1.18.3(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
       rc-overflow: 1.3.2(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
-      rc-virtual-list: 3.12.0(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
+      rc-virtual-list: 3.14.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31828,7 +31809,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31842,7 +31823,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31855,7 +31836,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31871,8 +31852,8 @@ packages:
       '@rc-component/context': 1.4.0(react-dom@18.2.0)(react@18.2.0)
       classnames: 2.5.1
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
-      rc-virtual-list: 3.12.0(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
+      rc-virtual-list: 3.14.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31888,9 +31869,9 @@ packages:
       classnames: 2.5.1
       rc-dropdown: 4.1.0(react-dom@18.2.0)(react@18.2.0)
       rc-menu: 9.12.4(react-dom@18.2.0)(react@18.2.0)
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31905,7 +31886,7 @@ packages:
       classnames: 2.5.1
       rc-input: 1.3.11(react-dom@18.2.0)(react@18.2.0)
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31933,7 +31914,7 @@ packages:
       classnames: 2.5.1
       rc-select: 14.10.0(react-dom@18.2.0)(react@18.2.0)
       rc-tree: 5.8.7(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31947,9 +31928,9 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
-      rc-virtual-list: 3.12.0(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
+      rc-virtual-list: 3.14.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31964,8 +31945,8 @@ packages:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
       rc-align: 4.0.15(react-dom@18.2.0)(react@18.2.0)
-      rc-motion: 2.9.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-motion: 2.9.1(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31978,7 +31959,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -31993,8 +31974,8 @@ packages:
       shallowequal: 1.1.0
     dev: true
 
-  /rc-util@5.39.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-j9wOELkLQ8gC/NkUg3qg9mHZcJf+5mYYv40JrDHqnaf8VSycji4pCf7kJ5fdTXQPDIF0vr5zpb/T2HdrMs9rWA==}
+  /rc-util@5.41.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-xtlCim9RpmVv0Ar2Nnc3WfJCxjQkTf3xHPWoFdjp1fSs2NirQwqiQrfqdU9HUe0kdfb168M/T8Dq0IaX50xeKg==}
     peerDependencies:
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
@@ -32004,8 +31985,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
       react-is: 18.3.1
 
-  /rc-virtual-list@3.12.0(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-43+/lr7bImpvEwTFw1FTYwSg42VHzRgO5PiCEEUROj8D2+M2SCvANqGIa9QyhoFLVQtc+2QXvgTB7VPGG7oOoQ==}
+  /rc-virtual-list@3.14.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-dnVLULMuHW02k3u+sA0Di6mVCUcam/g9ieZA4+IHY+wJS+SFuPh6dMP96v9+cf/3w7/6ev8tNpF3nxYBeOeR7Q==}
     engines: {node: '>=8.x'}
     peerDependencies:
       react: '>=16.9.0'
@@ -32014,7 +31995,7 @@ packages:
       '@babel/runtime': 7.24.5
       classnames: 2.5.1
       rc-resize-observer: 1.4.0(react-dom@18.2.0)(react@18.2.0)
-      rc-util: 5.39.3(react-dom@18.2.0)(react@18.2.0)
+      rc-util: 5.41.0(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: true
@@ -32470,7 +32451,7 @@ packages:
       react-native: '*'
     dependencies:
       base64-js: 1.5.1
-      react-native: 0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5)(@types/react@18.2.46)(react@18.2.0)
+      react-native: 0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5)(react@18.2.0)
     optional: true
 
   /react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5)(@types/react@18.2.46)(react@18.2.0):
@@ -32530,6 +32511,65 @@ packages:
       - encoding
       - supports-color
       - utf-8-validate
+    dev: true
+
+  /react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5)(react@18.2.0):
+    resolution: {integrity: sha512-0H2XpmghwOtfPpM2LKqHIN7gxy+7G/r1hwJHKLV6uoyXGC/gCojRtoo5NqyKrWpFC8cqyT6wTYCLuG7CxEKilg==}
+    engines: {node: '>=18'}
+    hasBin: true
+    peerDependencies:
+      '@types/react': ^18.2.6
+      react: 18.2.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@jest/create-cache-key-function': 29.7.0
+      '@react-native-community/cli': 13.6.6
+      '@react-native-community/cli-platform-android': 13.6.6
+      '@react-native-community/cli-platform-ios': 13.6.6
+      '@react-native/assets-registry': 0.74.83
+      '@react-native/codegen': 0.74.83(@babel/preset-env@7.24.5)
+      '@react-native/community-cli-plugin': 0.74.83(@babel/core@7.24.5)(@babel/preset-env@7.24.5)
+      '@react-native/gradle-plugin': 0.74.83
+      '@react-native/js-polyfills': 0.74.83
+      '@react-native/normalize-colors': 0.74.83
+      '@react-native/virtualized-lists': 0.74.83(react-native@0.74.1)(react@18.2.0)
+      abort-controller: 3.0.0
+      anser: 1.4.10
+      ansi-regex: 5.0.1
+      base64-js: 1.5.1
+      chalk: 4.1.2
+      event-target-shim: 5.0.1
+      flow-enums-runtime: 0.0.6
+      invariant: 2.2.4
+      jest-environment-node: 29.7.0
+      jsc-android: 250231.0.0
+      memoize-one: 5.2.1
+      metro-runtime: 0.80.9
+      metro-source-map: 0.80.9
+      mkdirp: 0.5.6
+      nullthrows: 1.1.1
+      pretty-format: 26.6.2
+      promise: 8.3.0
+      react: 18.2.0
+      react-devtools-core: 5.2.0
+      react-refresh: 0.14.2
+      react-shallow-renderer: 16.15.0(react@18.2.0)
+      regenerator-runtime: 0.13.11
+      scheduler: 0.24.0-canary-efb381bbf-20230505
+      stacktrace-parser: 0.1.10
+      whatwg-fetch: 3.6.20
+      ws: 6.2.2
+      yargs: 17.7.2
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@babel/preset-env'
+      - bufferutil
+      - encoding
+      - supports-color
+      - utf-8-validate
+    optional: true
 
   /react-pdf@5.7.2(@types/react@16.14.60)(react-dom@16.14.0)(react@16.14.0)(webpack@4.41.2):
     resolution: {integrity: sha512-hdDwvf007V0i2rPCqQVS1fa70CXut17SN3laJYlRHzuqcu8sLLjEoeXihty6c0Ev5g1mw31b8OT8EwRw1s8C4g==}
@@ -32669,7 +32709,7 @@ packages:
       react: 18.2.0
     dev: true
 
-  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@swc/core@1.5.6)(esbuild@0.18.20)(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.2)(typescript@5.1.6):
+  /react-scripts@5.0.1(@babel/plugin-syntax-flow@7.24.1)(@babel/plugin-transform-react-jsx@7.23.4)(@swc/core@1.5.7)(esbuild@0.18.20)(eslint@8.57.0)(react@18.2.0)(ts-node@10.9.2)(typescript@5.1.6):
     resolution: {integrity: sha512-8VAmEm/ZAwQzJ+GOMLbBsTdDKOpuZh7RPs0UymvBR2vRk4iZWCskjbFnxqjrzoIvlNNRZ3QJFx6/qDSi6zSnaQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -32724,9 +32764,9 @@ packages:
       source-map-loader: 3.0.2(webpack@5.88.2)
       style-loader: 3.3.4(webpack@5.88.2)
       tailwindcss: 3.4.3(ts-node@10.9.2)
-      terser-webpack-plugin: 5.3.10(@swc/core@1.5.6)(esbuild@0.18.20)(webpack@5.88.2)
+      terser-webpack-plugin: 5.3.10(@swc/core@1.5.7)(esbuild@0.18.20)(webpack@5.88.2)
       typescript: 5.1.6
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
       webpack-dev-server: 4.15.2(webpack@5.88.2)
       webpack-manifest-plugin: 4.1.1(webpack@5.88.2)
       workbox-webpack-plugin: 6.6.0(webpack@5.88.2)
@@ -33044,6 +33084,7 @@ packages:
   /read-package-json@7.0.1:
     resolution: {integrity: sha512-8PcDiZ8DXUjLf687Ol4BR8Bpm2umR7vhoZOzNRt+uxD9GpBh/K+CAAALVIiYFknmvlmyg7hM7BSNUXPaCCqd0Q==}
     engines: {node: ^16.14.0 || >=18.0.0}
+    deprecated: This package is no longer supported. Please use @npmcli/package-json instead.
     dependencies:
       glob: 10.3.15
       json-parse-even-better-errors: 3.0.2
@@ -33540,7 +33581,7 @@ packages:
     deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
     dependencies:
       aws-sign2: 0.7.0
-      aws4: 1.12.0
+      aws4: 1.13.0
       caseless: 0.12.0
       combined-stream: 1.0.8
       extend: 3.0.2
@@ -34054,6 +34095,7 @@ packages:
       elliptic: 6.5.5
       node-addon-api: 2.0.2
       node-gyp-build: 4.8.1
+    dev: false
 
   /seedrandom@3.0.5:
     resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
@@ -34408,16 +34450,16 @@ packages:
       - supports-color
     dev: true
 
-  /sigstore@2.3.0:
-    resolution: {integrity: sha512-q+o8L2ebiWD1AxD17eglf1pFrl9jtW7FHa0ygqY6EKvibK8JHyq9Z26v9MZXeDiw+RbfOJ9j2v70M10Hd6E06A==}
+  /sigstore@2.3.1:
+    resolution: {integrity: sha512-8G+/XDU8wNsJOQS5ysDVO0Etg9/2uA5gR9l4ZwijjlwxBcrU6RPfwi2+jJmbP+Ap1Hlp/nVAaEO4Fj22/SL2gQ==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      '@sigstore/bundle': 2.3.1
+      '@sigstore/bundle': 2.3.2
       '@sigstore/core': 1.1.0
       '@sigstore/protobuf-specs': 0.3.2
-      '@sigstore/sign': 2.3.1
-      '@sigstore/tuf': 2.3.3
-      '@sigstore/verify': 1.2.0
+      '@sigstore/sign': 2.3.2
+      '@sigstore/tuf': 2.3.4
+      '@sigstore/verify': 1.2.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -34855,7 +34897,6 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       minipass: 7.1.1
-    dev: true
 
   /ssri@6.0.2:
     resolution: {integrity: sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==}
@@ -35079,7 +35120,6 @@ packages:
   /string-width@1.0.2:
     resolution: {integrity: sha512-0XsVpQLnVCXHJfyEs8tC0zpTVIr5PKKsQtkT29IwupnPTjtPmQ3xT/4yCREF9hYkV/3M3kzcUTSAZT6a6h81tw==}
     engines: {node: '>=0.10.0'}
-    requiresBuild: true
     dependencies:
       code-point-at: 1.1.0
       is-fullwidth-code-point: 1.0.0
@@ -35493,8 +35533,8 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /swagger-ui-dist@5.17.9:
-    resolution: {integrity: sha512-qhZdoXIleblFxufohnd4ir4KmVA7/uFfd/9sDTtH8A6Qm1lEK40MhrMrDqy9AygGjw1bnJpZH4yZ5wu12vW1aw==}
+  /swagger-ui-dist@5.17.10:
+    resolution: {integrity: sha512-fp8SYeEK216KS1/noDvursUOGojEbkvtckOpOmAGZUjlx/ma7VLD2PLQwyermjlzFrlHI5uCt1V+M1C3qBvRyQ==}
     dev: false
 
   /swagger-ui-express@5.0.0(express@4.19.2):
@@ -35504,18 +35544,18 @@ packages:
       express: '>=4.0.0 || >=5.0.0-beta'
     dependencies:
       express: 4.19.2(supports-color@6.1.0)
-      swagger-ui-dist: 5.17.9
+      swagger-ui-dist: 5.17.10
     dev: false
 
-  /swc-loader@0.2.6(@swc/core@1.5.6)(webpack@5.88.2):
+  /swc-loader@0.2.6(@swc/core@1.5.7)(webpack@5.88.2):
     resolution: {integrity: sha512-9Zi9UP2YmDpgmQVbyOPJClY0dwf58JDyDMQ7uRc4krmc72twNI2fvlBWHLqVekBpPc7h5NJkGVT1zNDxFrqhvg==}
     peerDependencies:
       '@swc/core': ^1.2.147
       webpack: '>=2'
     dependencies:
-      '@swc/core': 1.5.6
+      '@swc/core': 1.5.7
       '@swc/counter': 0.1.3
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     dev: true
 
   /swr@2.2.5(react@18.2.0):
@@ -35645,7 +35685,6 @@ packages:
       minizlib: 2.1.2
       mkdirp: 1.0.4
       yallist: 4.0.0
-    dev: true
 
   /tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
@@ -35796,7 +35835,7 @@ packages:
       - bluebird
     dev: true
 
-  /terser-webpack-plugin@5.3.10(@swc/core@1.5.6)(esbuild@0.18.20)(webpack@5.88.2):
+  /terser-webpack-plugin@5.3.10(@swc/core@1.5.7)(esbuild@0.18.20)(webpack@5.88.2):
     resolution: {integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -35813,13 +35852,13 @@ packages:
         optional: true
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
-      '@swc/core': 1.5.6
+      '@swc/core': 1.5.7
       esbuild: 0.18.20
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
       terser: 5.31.0
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     dev: true
 
   /terser-webpack-plugin@5.3.10(webpack@5.88.2):
@@ -35967,13 +36006,13 @@ packages:
     resolution: {integrity: sha512-F4gphX9/KlZzEz26I9LwUw7DKdKFQEpsU4Pr04ssBOJCyZh4ST7kuOyB+JMqr4iJfE9zu6+g6aaXumM+ad61JA==}
     dependencies:
       es6-promise: 4.2.8
-      fp-ts: 2.16.5
-      io-ts: 2.2.21(fp-ts@2.16.5)
-      io-ts-types: 0.5.19(fp-ts@2.16.5)(io-ts@2.2.21)(monocle-ts@2.3.13)(newtype-ts@0.3.5)
+      fp-ts: 2.16.6
+      io-ts: 2.2.21(fp-ts@2.16.6)
+      io-ts-types: 0.5.19(fp-ts@2.16.6)(io-ts@2.2.21)(monocle-ts@2.3.13)(newtype-ts@0.3.5)
       isomorphic-fetch: 3.0.0
       jsonwebtoken: 8.5.1
-      monocle-ts: 2.3.13(fp-ts@2.16.5)
-      newtype-ts: 0.3.5(fp-ts@2.16.5)(monocle-ts@2.3.13)
+      monocle-ts: 2.3.13(fp-ts@2.16.6)
+      newtype-ts: 0.3.5(fp-ts@2.16.6)(monocle-ts@2.3.13)
       semver: 5.7.2
       uuid: 3.3.3
     transitivePeerDependencies:
@@ -36398,7 +36437,7 @@ packages:
   /truncate-utf8-bytes@1.0.2:
     resolution: {integrity: sha512-95Pu1QXQvruGEhv62XCMO3Mm90GscOCClvrIUwCM0PYOXK3kaF3l3sIHxx71ThJfcbM2O5Au6SO3AWCSEfW4mQ==}
     dependencies:
-      utf8-byte-length: 1.0.4
+      utf8-byte-length: 1.0.5
     dev: true
 
   /tryer@1.0.1:
@@ -37037,7 +37076,6 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       unique-slug: 4.0.0
-    dev: true
 
   /unique-slug@2.0.2:
     resolution: {integrity: sha512-zoWr9ObaxALD3DOPfjPSqxt4fnZiWblxHIgeWqW8x7UqDzEtHEQLzji2cuJYQFCU6KmoJikOYAZlrTHHebjx2w==}
@@ -37049,7 +37087,6 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       imurmurhash: 0.1.4
-    dev: true
 
   /unique-string@1.0.0:
     resolution: {integrity: sha512-ODgiYu03y5g76A1I9Gt0/chLCzQjvzDy7DsZGsLOE/1MrF6wriEskSncj1+/C58Xk/kPZDppSctDybCwOSaGAg==}
@@ -37204,8 +37241,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /update-browserslist-db@1.0.15(browserslist@4.23.0):
-    resolution: {integrity: sha512-K9HWH62x3/EalU1U6sjSZiylm9C8tgq2mSvshZpqc7QE69RaA2qjhkW2HlNA0tFpEbtyFz7HTqbSdN4MSwUodA==}
+  /update-browserslist-db@1.0.16(browserslist@4.23.0):
+    resolution: {integrity: sha512-KVbTxlBYlckhF5wgfyZXTWnMn7MMZjMu9XG8bPlliUOP9ThaF4QnhP8qrjrH7DRzHfSk0oQv1wToW+iA5GajEQ==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
@@ -37375,8 +37412,8 @@ packages:
       node-gyp-build: 4.8.1
     dev: true
 
-  /utf8-byte-length@1.0.4:
-    resolution: {integrity: sha512-4+wkEYLBbWxqTahEsWrhxepcoVOJ+1z5PGIjPZxRkytcdSUaNjIjBM7Xn8E+pdSuV7SzvWovBFA54FO0JSoqhA==}
+  /utf8-byte-length@1.0.5:
+    resolution: {integrity: sha512-Xn0w3MtiQ6zoz2vFyUVruaCL53O/DwUvkEeOvj+uulMm0BkUGYWmBYVyElqZaSLhY6ZD0ulfU3aBra2aVT4xfA==}
     dev: true
 
   /util-deprecate@1.0.2:
@@ -37877,7 +37914,7 @@ packages:
       mime-types: 2.1.35
       range-parser: 1.2.1
       schema-utils: 4.2.0
-      webpack: 5.88.2(@swc/core@1.5.6)(esbuild@0.18.20)
+      webpack: 5.88.2(@swc/core@1.5.7)(esbuild@0.18.20)
     dev: true
 
   /webpack-dev-server@3.11.3(webpack-cli@3.3.12)(webpack@4.41.2):
@@ -38123,7 +38160,7 @@ packages:
       browserslist: 4.23.0
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.16.1
-      es-module-lexer: 1.5.2
+      es-module-lexer: 1.5.3
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
@@ -38143,7 +38180,7 @@ packages:
       - uglify-js
     dev: true
 
-  /webpack@5.88.2(@swc/core@1.5.6)(esbuild@0.18.20):
+  /webpack@5.88.2(@swc/core@1.5.7)(esbuild@0.18.20):
     resolution: {integrity: sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -38163,7 +38200,7 @@ packages:
       browserslist: 4.23.0
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.16.1
-      es-module-lexer: 1.5.2
+      es-module-lexer: 1.5.3
       eslint-scope: 5.1.1
       events: 3.3.0
       glob-to-regexp: 0.4.1
@@ -38174,7 +38211,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(@swc/core@1.5.6)(esbuild@0.18.20)(webpack@5.88.2)
+      terser-webpack-plugin: 5.3.10(@swc/core@1.5.7)(esbuild@0.18.20)(webpack@5.88.2)
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -39052,7 +39089,7 @@ packages:
     requiresBuild: true
     dev: false
 
-  github.com/digitalbazaar/vc/b78162e89ddb88c9ebaa26f6fd276a418a284a03(expo@51.0.5)(react-native@0.74.1):
+  github.com/digitalbazaar/vc/b78162e89ddb88c9ebaa26f6fd276a418a284a03(expo@51.0.8)(react-native@0.74.1):
     resolution: {tarball: https://codeload.github.com/digitalbazaar/vc/tar.gz/b78162e89ddb88c9ebaa26f6fd276a418a284a03}
     id: github.com/digitalbazaar/vc/b78162e89ddb88c9ebaa26f6fd276a418a284a03
     name: '@digitalbazaar/vc'
@@ -39062,8 +39099,8 @@ packages:
       '@digitalbazaar/credentials-v2-context': github.com/digitalbazaar/credentials-v2-context/277d50b948ada35fedf63feb43de32b2483489e0
       credentials-context: 2.0.0
       ed25519-signature-2018-context: 1.1.0
-      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.5)(react-native@0.74.1)
-      jsonld-signatures: 11.2.1(expo@51.0.5)(react-native@0.74.1)
+      jsonld: /@digitalcredentials/jsonld@5.2.2(expo@51.0.8)(react-native@0.74.1)
+      jsonld-signatures: 11.2.1(expo@51.0.8)(react-native@0.74.1)
     transitivePeerDependencies:
       - domexception
       - expo
@@ -39071,7 +39108,7 @@ packages:
       - web-streams-polyfill
     dev: false
 
-  github.com/gs-gs/vc-bitstring-status-list/eb093cb2ab9cec30fa343c5459cd5695facfbf81(expo@51.0.5)(react-native@0.74.1):
+  github.com/gs-gs/vc-bitstring-status-list/eb093cb2ab9cec30fa343c5459cd5695facfbf81(expo@51.0.8)(react-native@0.74.1):
     resolution: {tarball: https://codeload.github.com/gs-gs/vc-bitstring-status-list/tar.gz/eb093cb2ab9cec30fa343c5459cd5695facfbf81}
     id: github.com/gs-gs/vc-bitstring-status-list/eb093cb2ab9cec30fa343c5459cd5695facfbf81
     name: '@digitalbazaar/vc-bitstring-status-list'
@@ -39080,7 +39117,7 @@ packages:
     dependencies:
       '@digitalbazaar/bitstring': 3.1.0
       '@digitalbazaar/credentials-v2-context': github.com/digitalbazaar/credentials-v2-context/277d50b948ada35fedf63feb43de32b2483489e0
-      '@digitalbazaar/vc': github.com/digitalbazaar/vc/b78162e89ddb88c9ebaa26f6fd276a418a284a03(expo@51.0.5)(react-native@0.74.1)
+      '@digitalbazaar/vc': github.com/digitalbazaar/vc/b78162e89ddb88c9ebaa26f6fd276a418a284a03(expo@51.0.8)(react-native@0.74.1)
       '@digitalbazaar/vc-bitstring-status-list-context': 1.0.0
       credentials-context: 2.0.0
     transitivePeerDependencies:

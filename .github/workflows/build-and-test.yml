@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --ignore-scripts
 
+      - name: Build
+        run: pnpm build:agent
+
       - name: Run tests
         run: |
           pnpm test:packages --changedSince=origin/next --ci --json --coverage --testLocationInResults --outputFile=report.json
@@ -43,5 +46,3 @@ jobs:
           base-coverage-file: report.json
           threshold: 80
 
-      - name: Build
-        run: pnpm build:agent

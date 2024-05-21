@@ -22,6 +22,7 @@ export default {
     '<rootDir>/packages/credential-ld/',
     '<rootDir>/packages/vckit-oa-renderers/',
     '<rootDir>/.tmp_npm/',
+    '<rootDir>/packages/credential-oa/',
   ],
   testEnvironment: 'node',
   automock: false,
