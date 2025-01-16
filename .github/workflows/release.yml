@@ -39,7 +39,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pnpm test:packages --changedSince=origin/next --ci --json --coverage --testLocationInResults --outputFile=report.json
+          pnpm test:packages --changedSince=origin/main --ci --json --coverage --testLocationInResults --outputFile=report.json
 
       - name: Coverage
         uses: artiomtr/jest-coverage-report-action@v2
