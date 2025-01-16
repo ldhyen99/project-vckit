@@ -29,7 +29,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '21'
+          node-version: '20'
 
       - name: Install dependencies
         run: pnpm i --filter ${{ env.EXCLUDED_PACKAGE_OA_RENDERERS }} --filter ${{ env.EXCLUDED_PACKAGE_CREDENTIAL_OA }} --filter ${{ env.EXCLUDED_PACKAGE_EXPLORER }} --no-frozen-lockfile
@@ -39,7 +39,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pnpm test:packages --changedSince=origin/next --ci --json --coverage --testLocationInResults --outputFile=report.json
+          pnpm test:packages --changedSince=origin/main --ci --json --coverage --testLocationInResults --outputFile=report.json
 
       - name: Coverage
         uses: artiomtr/jest-coverage-report-action@v2
