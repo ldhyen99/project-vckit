@@ -258,6 +258,16 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 - partial implementation of identifiers/{did} ([e47ea92](https://github.com/uncefact/project-vckit/commit/e47ea9247374c96afde58a754f69fe68045d2b26))
 - restructure types and add OA types ([5c1ac47](https://github.com/uncefact/project-vckit/commit/5c1ac471939fa4aa94ad20999f7455a6543f109a))
 
+## [1.0.2](https://github.com/ldhyen99/project-vckit/compare/1.0.1...v1.0.2) (2025-01-17)
+
+
+### Miscellaneous
+
+* Release 1.0.1 ([473dcf6](https://github.com/ldhyen99/project-vckit/commit/473dcf6fba4176315db1d938ee12248011e48e95))
+* Release 1.0.2 ([22c8164](https://github.com/ldhyen99/project-vckit/commit/22c8164f340119d8ccaa31de4c0d1cb3a1f7d244))
+* Update release workflow ([65fac72](https://github.com/ldhyen99/project-vckit/commit/65fac7296d8661d3f9d1013dbe7c9a0341219705))
+* Update version 1.0.2 ([644d349](https://github.com/ldhyen99/project-vckit/commit/644d34916c176c62ecbf27b2774ab8c603c36fd6))
+
 ## [1.0.1](https://github.com/ldhyen99/project-vckit/compare/1.0.0...v1.0.1) (2025-01-17)
 
 
